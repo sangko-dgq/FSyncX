@@ -17,8 +17,17 @@
   源码编译：
 
 ```git
-git clone 
+git clone https://github.com/sangko-dgq/FSyncX.git
 ```
 
  安装包
 
+[Releases](https://github.com/sangko-dgq/FSyncX/releases/tag/FSyncX_beta)
+
+#### 四、ShortCut
+
+![image-20220520012518316](https://s2.loli.net/2022/05/20/P9kGB2KZ6jXqJiQ.png)
+
+![UI_demo001](https://s2.loli.net/2022/05/20/tzx7p5aBIwVdNLG.png)
+
+![image-20220520012834354](https://s2.loli.net/2022/05/20/5zaUqmoPQtESyg9.png)

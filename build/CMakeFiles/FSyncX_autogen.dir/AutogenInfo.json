@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/22012/Desktop/FSyncX/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22012/Desktop/FSyncX/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX",
+	"BUILD_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX",
 	"CMAKE_EXECUTABLE" : "D:/Qt5/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/22012/Desktop/FSyncX/CMakeLists.txt",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/CMakeLists.txt",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeMinGWFindMake.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeSystem.cmake.in",
-		"C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/3.21.1/CMakeSystem.cmake",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/3.21.1/CMakeSystem.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake",
@@ -58,7 +58,7 @@
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in",
-		"C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeGenericSystem.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake",
@@ -73,7 +73,7 @@
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in",
-		"C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/3.21.1/CMakeRCCompiler.cmake",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/3.21.1/CMakeRCCompiler.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeRCInformation.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/Platform/Windows-windres.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake",
@@ -89,7 +89,7 @@
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in",
-		"C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake",
@@ -135,102 +135,102 @@
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
-		"C:/Users/22012/Desktop/FSyncX/Theme/APPTheme.qrc",
-		"C:/Users/22012/Desktop/FSyncX/icons/APPicons.qrc"
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/Theme/APPTheme.qrc",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/icons/APPicons.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX",
+	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/22012/Desktop/FSyncX/CONFIG/ConfigManager.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h",
 			"MU",
 			"7JCVFSXUOK/moc_ConfigManager.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/ChildWindow/SettingWindow.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h",
 			"MU",
 			"NCSWCVWO42/moc_SettingWindow.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/DATA/DATA_Base/FileBase.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h",
 			"MU",
 			"PHSKFNSKIR/moc_FileBase.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileTransfer.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileTransfer.h",
 			"MU",
 			"JOKBKHCW6O/moc_FileTransfer.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileWatcher.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileWatcher.h",
 			"MU",
 			"JOKBKHCW6O/moc_FileWatcher.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/MainWindow.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/MainWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/BasePage.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.h",
 			"MU",
 			"K375XTTEI5/moc_BasePage.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/CommonHelper.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.h",
 			"MU",
 			"K375XTTEI5/moc_CommonHelper.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/ContextMenu.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.h",
 			"MU",
 			"K375XTTEI5/moc_ContextMenu.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/ListenFromDATA.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ListenFromDATA.h",
 			"MU",
 			"K375XTTEI5/moc_ListenFromDATA.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/PageManager.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.h",
 			"MU",
 			"K375XTTEI5/moc_PageManager.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/QHeaders.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h",
 			"MU",
 			"K375XTTEI5/moc_QHeaders.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/SyncPage.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.h",
 			"MU",
 			"K375XTTEI5/moc_SyncPage.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/ThemeManager.h",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h",
 			"MU",
 			"K375XTTEI5/moc_ThemeManager.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -241,8 +241,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/22012/Desktop/FSyncX/build",
-		"C:/Users/22012/Desktop/FSyncX",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX",
 		"D:/Qt5/5.15.2/mingw81_64/include",
 		"D:/Qt5/5.15.2/mingw81_64/include/QtWidgets",
 		"D:/Qt5/5.15.2/mingw81_64/include/QtGui",
@@ -268,69 +268,81 @@
 		"-c",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "D:/Qt5/5.15.2/mingw81_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "D:/Qt5/5.15.2/mingw81_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/22012/Desktop/FSyncX/CONFIG/ConfigManager.cpp", "MU", null ],
 		[
-			"C:/Users/22012/Desktop/FSyncX/ChildWindow/SettingWindow.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/DATA/DATA_Base/FileBase.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileTransfer.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileWatcher.cpp",
-			"MU",
-			null
-		],
-		[ "C:/Users/22012/Desktop/FSyncX/MainWindow.cpp", "MU", null ],
-		[ "C:/Users/22012/Desktop/FSyncX/UI_Modules/BasePage.cpp", "MU", null ],
-		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/CommonHelper.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileTransfer.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/ContextMenu.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileWatcher.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/22012/Desktop/FSyncX/FSyncX/MainWindow.cpp", "MU", null ],
+		[
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/ListenFromDATA.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/PageManager.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/22012/Desktop/FSyncX/UI_Modules/SyncPage.cpp", "MU", null ],
 		[
-			"C:/Users/22012/Desktop/FSyncX/UI_Modules/ThemeManager.cpp",
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ListenFromDATA.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/22012/Desktop/FSyncX/main.cpp", "MU", null ]
+		[
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/22012/Desktop/FSyncX/FSyncX/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

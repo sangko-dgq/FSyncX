@@ -1,87 +1,87 @@
 [
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\FSyncX_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\build\\FSyncX_autogen\\mocs_compilation.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/mocs_compilation.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\FSyncX_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\build\\FSyncX_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/mocs_compilation.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\main.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\main.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/main.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\main.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\main.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/main.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\MainWindow.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\MainWindow.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/MainWindow.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\MainWindow.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\MainWindow.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/MainWindow.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\ChildWindow\\SettingWindow.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\ChildWindow\\SettingWindow.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/ChildWindow/SettingWindow.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\ChildWindow\\SettingWindow.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\ChildWindow\\SettingWindow.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\DATA\\DATA_Sync\\FileWatcher.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\DATA\\DATA_Sync\\FileWatcher.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileWatcher.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\DATA\\DATA_Sync\\FileWatcher.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\DATA\\DATA_Sync\\FileWatcher.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileWatcher.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\DATA\\DATA_Sync\\FileTransfer.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\DATA\\DATA_Sync\\FileTransfer.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileTransfer.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\DATA\\DATA_Sync\\FileTransfer.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\DATA\\DATA_Sync\\FileTransfer.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileTransfer.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\DATA\\DATA_Base\\FileBase.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\DATA\\DATA_Base\\FileBase.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/DATA/DATA_Base/FileBase.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\DATA\\DATA_Base\\FileBase.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\DATA\\DATA_Base\\FileBase.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\CommonHelper.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\UI_Modules\\CommonHelper.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/UI_Modules/CommonHelper.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\CommonHelper.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\UI_Modules\\CommonHelper.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\PageManager.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\UI_Modules\\PageManager.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/UI_Modules/PageManager.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\PageManager.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\UI_Modules\\PageManager.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\SyncPage.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\UI_Modules\\SyncPage.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/UI_Modules/SyncPage.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\SyncPage.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\UI_Modules\\SyncPage.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\BasePage.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\UI_Modules\\BasePage.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/UI_Modules/BasePage.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\BasePage.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\UI_Modules\\BasePage.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\ContextMenu.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\UI_Modules\\ContextMenu.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/UI_Modules/ContextMenu.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\ContextMenu.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\UI_Modules\\ContextMenu.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\ListenFromDATA.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\UI_Modules\\ListenFromDATA.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/UI_Modules/ListenFromDATA.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\ListenFromDATA.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\UI_Modules\\ListenFromDATA.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ListenFromDATA.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\CONFIG\\ConfigManager.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\CONFIG\\ConfigManager.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/CONFIG/ConfigManager.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\CONFIG\\ConfigManager.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\CONFIG\\ConfigManager.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\ThemeManager.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\UI_Modules\\ThemeManager.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/UI_Modules/ThemeManager.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\UI_Modules\\ThemeManager.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\UI_Modules\\ThemeManager.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\FSyncX_autogen\\MNQGAJHFUT\\qrc_APPTheme.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\build\\FSyncX_autogen\\MNQGAJHFUT\\qrc_APPTheme.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\FSyncX_autogen\\MNQGAJHFUT\\qrc_APPTheme.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\build\\FSyncX_autogen\\MNQGAJHFUT\\qrc_APPTheme.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp"
 },
 {
-  "directory": "C:/Users/22012/Desktop/FSyncX/build",
-  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\FSyncX_autogen\\2SEMU33LXP\\qrc_APPicons.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\build\\FSyncX_autogen\\2SEMU33LXP\\qrc_APPicons.cpp",
-  "file": "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp"
+  "directory": "C:/Users/22012/Desktop/FSyncX/FSyncX/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSyncX.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSyncX.dir\\FSyncX_autogen\\2SEMU33LXP\\qrc_APPicons.cpp.obj -c C:\\Users\\22012\\Desktop\\FSyncX\\FSyncX\\build\\FSyncX_autogen\\2SEMU33LXP\\qrc_APPicons.cpp",
+  "file": "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp"
 }
 ]

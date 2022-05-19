@@ -52,10 +52,10 @@ RM = D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\22012\Desktop\FSyncX
+CMAKE_SOURCE_DIR = C:\Users\22012\Desktop\FSyncX\FSyncX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\22012\Desktop\FSyncX\build
+CMAKE_BINARY_DIR = C:\Users\22012\Desktop\FSyncX\FSyncX\build
 
 # Utility rule file for FSyncX_autogen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/FSyncX_autogen.dir/compiler_depend.make
 include CMakeFiles/FSyncX_autogen.dir/progress.make
 
 CMakeFiles/FSyncX_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FSyncX"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FSyncX"
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutogenInfo.json Debug
 
 FSyncX_autogen: CMakeFiles/FSyncX_autogen
 FSyncX_autogen: CMakeFiles/FSyncX_autogen.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/FSyncX_autogen.dir/clean:
 .PHONY : CMakeFiles/FSyncX_autogen.dir/clean
 
 CMakeFiles/FSyncX_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\22012\Desktop\FSyncX C:\Users\22012\Desktop\FSyncX C:\Users\22012\Desktop\FSyncX\build C:\Users\22012\Desktop\FSyncX\build C:\Users\22012\Desktop\FSyncX\build\CMakeFiles\FSyncX_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\22012\Desktop\FSyncX\FSyncX C:\Users\22012\Desktop\FSyncX\FSyncX C:\Users\22012\Desktop\FSyncX\FSyncX\build C:\Users\22012\Desktop\FSyncX\FSyncX\build C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles\FSyncX_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FSyncX_autogen.dir/depend
 

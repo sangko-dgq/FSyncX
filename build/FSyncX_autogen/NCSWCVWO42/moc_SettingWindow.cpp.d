@@ -1,18 +1,18 @@
-C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/NCSWCVWO42/moc_SettingWindow.cpp: C:/Users/22012/Desktop/FSyncX/ChildWindow/SettingWindow.h \
-  C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/moc_predefs.h \
-  C:/Users/22012/Desktop/FSyncX/CONFIG/ConfigManager.h \
-  C:/Users/22012/Desktop/FSyncX/ChildWindow/SettingWindow.h \
-  C:/Users/22012/Desktop/FSyncX/DATA/DATA_Base/FileBase.h \
-  C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileTransfer.h \
-  C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileWatcher.h \
-  C:/Users/22012/Desktop/FSyncX/UI_Modules/BasePage.h \
-  C:/Users/22012/Desktop/FSyncX/UI_Modules/CommonHelper.h \
-  C:/Users/22012/Desktop/FSyncX/UI_Modules/ContextMenu.h \
-  C:/Users/22012/Desktop/FSyncX/UI_Modules/PageManager.h \
-  C:/Users/22012/Desktop/FSyncX/UI_Modules/QHeaders.h \
-  C:/Users/22012/Desktop/FSyncX/UI_Modules/SyncPage.h \
-  C:/Users/22012/Desktop/FSyncX/UI_Modules/ThemeManager.h \
-  C:/Users/22012/Desktop/FSyncX/mainwindow.h \
+C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/NCSWCVWO42/moc_SettingWindow.cpp: C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileTransfer.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileWatcher.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/mainwindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \

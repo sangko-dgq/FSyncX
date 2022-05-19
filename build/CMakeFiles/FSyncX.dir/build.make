@@ -52,10 +52,10 @@ RM = D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\22012\Desktop\FSyncX
+CMAKE_SOURCE_DIR = C:\Users\22012\Desktop\FSyncX\FSyncX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\22012\Desktop\FSyncX\build
+CMAKE_BINARY_DIR = C:\Users\22012\Desktop\FSyncX\FSyncX\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FSyncX.dir/depend.make
@@ -87,8 +87,8 @@ FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: ../Theme/QSS_IMG/object-select-symbo
 FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: ../Theme/QSS_IMG/go-down-symbolic.symbolic.png
 FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: ../Theme/QSS_IMG/go-up-symbolic.symbolic.png
 FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for Theme/APPTheme.qrc"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Info.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for Theme/APPTheme.qrc"
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Info.json Debug
 
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/APPicons.qrc
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json
@@ -97,263 +97,263 @@ FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Exit.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Setting.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_HOW.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for icons/APPicons.qrc"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for icons/APPicons.qrc"
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json Debug
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj: FSyncX_autogen/mocs_compilation.cpp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.obj -c C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\mocs_compilation.cpp
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\mocs_compilation.cpp > CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\mocs_compilation.cpp > CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\mocs_compilation.cpp -o CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\mocs_compilation.cpp -o CMakeFiles\FSyncX.dir\FSyncX_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/FSyncX.dir/main.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/main.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/FSyncX.dir/main.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FSyncX.dir/main.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/main.cpp.obj -MF CMakeFiles\FSyncX.dir\main.cpp.obj.d -o CMakeFiles\FSyncX.dir\main.cpp.obj -c C:\Users\22012\Desktop\FSyncX\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FSyncX.dir/main.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/main.cpp.obj -MF CMakeFiles\FSyncX.dir\main.cpp.obj.d -o CMakeFiles\FSyncX.dir\main.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\main.cpp
 
 CMakeFiles/FSyncX.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/main.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\main.cpp > CMakeFiles\FSyncX.dir\main.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\main.cpp > CMakeFiles\FSyncX.dir\main.cpp.i
 
 CMakeFiles/FSyncX.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/main.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\main.cpp -o CMakeFiles\FSyncX.dir\main.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\main.cpp -o CMakeFiles\FSyncX.dir\main.cpp.s
 
 CMakeFiles/FSyncX.dir/MainWindow.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/MainWindow.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/MainWindow.cpp.obj: ../MainWindow.cpp
 CMakeFiles/FSyncX.dir/MainWindow.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FSyncX.dir/MainWindow.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/MainWindow.cpp.obj -MF CMakeFiles\FSyncX.dir\MainWindow.cpp.obj.d -o CMakeFiles\FSyncX.dir\MainWindow.cpp.obj -c C:\Users\22012\Desktop\FSyncX\MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FSyncX.dir/MainWindow.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/MainWindow.cpp.obj -MF CMakeFiles\FSyncX.dir\MainWindow.cpp.obj.d -o CMakeFiles\FSyncX.dir\MainWindow.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\MainWindow.cpp
 
 CMakeFiles/FSyncX.dir/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/MainWindow.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\MainWindow.cpp > CMakeFiles\FSyncX.dir\MainWindow.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\MainWindow.cpp > CMakeFiles\FSyncX.dir\MainWindow.cpp.i
 
 CMakeFiles/FSyncX.dir/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/MainWindow.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\MainWindow.cpp -o CMakeFiles\FSyncX.dir\MainWindow.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\MainWindow.cpp -o CMakeFiles\FSyncX.dir\MainWindow.cpp.s
 
 CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: ../ChildWindow/SettingWindow.cpp
 CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj -MF CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.obj.d -o CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.obj -c C:\Users\22012\Desktop\FSyncX\ChildWindow\SettingWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj -MF CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.obj.d -o CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\ChildWindow\SettingWindow.cpp
 
 CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\ChildWindow\SettingWindow.cpp > CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\ChildWindow\SettingWindow.cpp > CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.i
 
 CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\ChildWindow\SettingWindow.cpp -o CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\ChildWindow\SettingWindow.cpp -o CMakeFiles\FSyncX.dir\ChildWindow\SettingWindow.cpp.s
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj: ../DATA/DATA_Sync/FileWatcher.cpp
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj -MF CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.obj.d -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.obj -c C:\Users\22012\Desktop\FSyncX\DATA\DATA_Sync\FileWatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.obj -MF CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.obj.d -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Sync\FileWatcher.cpp
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\DATA\DATA_Sync\FileWatcher.cpp > CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Sync\FileWatcher.cpp > CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.i
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileWatcher.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\DATA\DATA_Sync\FileWatcher.cpp -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Sync\FileWatcher.cpp -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileWatcher.cpp.s
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj: ../DATA/DATA_Sync/FileTransfer.cpp
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj -MF CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.obj.d -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.obj -c C:\Users\22012\Desktop\FSyncX\DATA\DATA_Sync\FileTransfer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.obj -MF CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.obj.d -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Sync\FileTransfer.cpp
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\DATA\DATA_Sync\FileTransfer.cpp > CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Sync\FileTransfer.cpp > CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.i
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/DATA/DATA_Sync/FileTransfer.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\DATA\DATA_Sync\FileTransfer.cpp -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Sync\FileTransfer.cpp -o CMakeFiles\FSyncX.dir\DATA\DATA_Sync\FileTransfer.cpp.s
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj: ../DATA/DATA_Base/FileBase.cpp
 CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj -MF CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.obj.d -o CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.obj -c C:\Users\22012\Desktop\FSyncX\DATA\DATA_Base\FileBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj -MF CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.obj.d -o CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Base\FileBase.cpp
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\DATA\DATA_Base\FileBase.cpp > CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Base\FileBase.cpp > CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.i
 
 CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\DATA\DATA_Base\FileBase.cpp -o CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Base\FileBase.cpp -o CMakeFiles\FSyncX.dir\DATA\DATA_Base\FileBase.cpp.s
 
 CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj: ../UI_Modules/CommonHelper.cpp
 CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.obj -c C:\Users\22012\Desktop\FSyncX\UI_Modules\CommonHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\CommonHelper.cpp
 
 CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\UI_Modules\CommonHelper.cpp > CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\CommonHelper.cpp > CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.i
 
 CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\UI_Modules\CommonHelper.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\CommonHelper.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\CommonHelper.cpp.s
 
 CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj: ../UI_Modules/PageManager.cpp
 CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.obj -c C:\Users\22012\Desktop\FSyncX\UI_Modules\PageManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\PageManager.cpp
 
 CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\UI_Modules\PageManager.cpp > CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\PageManager.cpp > CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.i
 
 CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\UI_Modules\PageManager.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\PageManager.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\PageManager.cpp.s
 
 CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj: ../UI_Modules/SyncPage.cpp
 CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.obj -c C:\Users\22012\Desktop\FSyncX\UI_Modules\SyncPage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\SyncPage.cpp
 
 CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\UI_Modules\SyncPage.cpp > CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\SyncPage.cpp > CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.i
 
 CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\UI_Modules\SyncPage.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\SyncPage.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\SyncPage.cpp.s
 
 CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj: ../UI_Modules/BasePage.cpp
 CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.obj -c C:\Users\22012\Desktop\FSyncX\UI_Modules\BasePage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\BasePage.cpp
 
 CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\UI_Modules\BasePage.cpp > CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\BasePage.cpp > CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.i
 
 CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\UI_Modules\BasePage.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\BasePage.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\BasePage.cpp.s
 
 CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj: ../UI_Modules/ContextMenu.cpp
 CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.obj -c C:\Users\22012\Desktop\FSyncX\UI_Modules\ContextMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ContextMenu.cpp
 
 CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\UI_Modules\ContextMenu.cpp > CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ContextMenu.cpp > CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.i
 
 CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\UI_Modules\ContextMenu.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ContextMenu.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\ContextMenu.cpp.s
 
 CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj: ../UI_Modules/ListenFromDATA.cpp
 CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.obj -c C:\Users\22012\Desktop\FSyncX\UI_Modules\ListenFromDATA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ListenFromDATA.cpp
 
 CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\UI_Modules\ListenFromDATA.cpp > CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ListenFromDATA.cpp > CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.i
 
 CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\UI_Modules\ListenFromDATA.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ListenFromDATA.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\ListenFromDATA.cpp.s
 
 CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj: ../CONFIG/ConfigManager.cpp
 CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj -MF CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.obj.d -o CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.obj -c C:\Users\22012\Desktop\FSyncX\CONFIG\ConfigManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj -MF CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.obj.d -o CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\CONFIG\ConfigManager.cpp
 
 CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\CONFIG\ConfigManager.cpp > CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\CONFIG\ConfigManager.cpp > CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.i
 
 CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\CONFIG\ConfigManager.cpp -o CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\CONFIG\ConfigManager.cpp -o CMakeFiles\FSyncX.dir\CONFIG\ConfigManager.cpp.s
 
 CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj: ../UI_Modules/ThemeManager.cpp
 CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.obj -c C:\Users\22012\Desktop\FSyncX\UI_Modules\ThemeManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj -MF CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.obj.d -o CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ThemeManager.cpp
 
 CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\UI_Modules\ThemeManager.cpp > CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ThemeManager.cpp > CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.i
 
 CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\UI_Modules\ThemeManager.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ThemeManager.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.s
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.obj -c C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp > CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp > CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.i
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp -o CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp -o CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.s
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.obj -c C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp > CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.i
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp > CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.i
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\build\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp -o CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.s
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp -o CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.s
 
 # Object files for target FSyncX
 FSyncX_OBJECTS = \
@@ -404,7 +404,7 @@ FSyncX.exe: D:/Qt5/5.15.2/mingw81_64/lib/libqtmain.a
 FSyncX.exe: CMakeFiles/FSyncX.dir/linklibs.rsp
 FSyncX.exe: CMakeFiles/FSyncX.dir/objects1.rsp
 FSyncX.exe: CMakeFiles/FSyncX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable FSyncX.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable FSyncX.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FSyncX.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -417,6 +417,6 @@ CMakeFiles/FSyncX.dir/clean:
 
 CMakeFiles/FSyncX.dir/depend: FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp
 CMakeFiles/FSyncX.dir/depend: FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\22012\Desktop\FSyncX C:\Users\22012\Desktop\FSyncX C:\Users\22012\Desktop\FSyncX\build C:\Users\22012\Desktop\FSyncX\build C:\Users\22012\Desktop\FSyncX\build\CMakeFiles\FSyncX.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\22012\Desktop\FSyncX\FSyncX C:\Users\22012\Desktop\FSyncX\FSyncX C:\Users\22012\Desktop\FSyncX\FSyncX\build C:\Users\22012\Desktop\FSyncX\FSyncX\build C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles\FSyncX.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FSyncX.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/FSyncX.dir/DATA/DATA_Base/FileBase.cpp.obj: \
- C:\Users\22012\Desktop\FSyncX\DATA\DATA_Base\FileBase.cpp \
- C:\Users\22012\Desktop\FSyncX\DATA\DATA_Base\FileBase.h \
+ C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Base\FileBase.cpp \
+ C:\Users\22012\Desktop\FSyncX\FSyncX\DATA\DATA_Base\FileBase.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \

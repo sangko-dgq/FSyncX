@@ -1,5 +1,5 @@
-C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/PHSKFNSKIR/moc_FileBase.cpp: C:/Users/22012/Desktop/FSyncX/DATA/DATA_Base/FileBase.h \
-  C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/moc_predefs.h \
+C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/PHSKFNSKIR/moc_FileBase.cpp: C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \

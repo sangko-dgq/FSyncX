@@ -1,6 +1,6 @@
 CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: \
- C:\Users\22012\Desktop\FSyncX\ChildWindow\SettingWindow.cpp \
- C:\Users\22012\Desktop\FSyncX\ChildWindow\SettingWindow.h \
+ C:\Users\22012\Desktop\FSyncX\FSyncX\ChildWindow\SettingWindow.cpp \
+ C:\Users\22012\Desktop\FSyncX\FSyncX\ChildWindow\SettingWindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -278,7 +278,7 @@ CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/QHeaders.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
@@ -348,35 +348,35 @@ CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
- C:/Users/22012/Desktop/FSyncX/CONFIG/ConfigManager.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/QHeaders.h \
- C:/Users/22012/Desktop/FSyncX/mainwindow.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/mainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/QHeaders.h \
- C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileWatcher.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileWatcher.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
- C:/Users/22012/Desktop/FSyncX/DATA/DATA_Sync/FileTransfer.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Sync/FileTransfer.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
- C:/Users/22012/Desktop/FSyncX/DATA/DATA_Base/FileBase.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/CommonHelper.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/QHeaders.h \
- C:/Users/22012/Desktop/FSyncX/mainwindow.h \
- C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/ui_mainwindow.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/mainwindow.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/ui_mainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QAction \
@@ -411,19 +411,19 @@ CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/PageManager.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/SyncPage.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/BasePage.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/ContextMenu.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/ThemeManager.h \
- C:/Users/22012/Desktop/FSyncX/CONFIG/ConfigManager.h \
- C:/Users/22012/Desktop/FSyncX/ChildWindow/SettingWindow.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/CommonHelper.h \
- C:/Users/22012/Desktop/FSyncX/UI_Modules/ThemeManager.h \
- C:/Users/22012/Desktop/FSyncX/CONFIG/ConfigManager.h \
- C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/include/ui_SettingWindow.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/include/ui_SettingWindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QComboBox \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qcombobox.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
