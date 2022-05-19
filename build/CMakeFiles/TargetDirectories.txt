@@ -1,0 +1,4 @@
+C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX.dir
+C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/edit_cache.dir
+C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/rebuild_cache.dir
+C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir

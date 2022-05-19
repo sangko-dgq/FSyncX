@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.c": "c",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "qapplication": "cpp",
+        "new": "cpp",
+        "qhostaddress": "cpp",
+        "qcontextmenuevent": "cpp",
+        "qfile": "cpp",
+        "qdesktopservices": "cpp",
+        "qtextbrowser": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "functional": "cpp"
+    },
+    "todo-tree.tree.showCountsInTree": true
+}

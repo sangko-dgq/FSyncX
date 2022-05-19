@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_backhome.png</file>
+        <file>icon_Exit.png</file>
+        <file>icon_HOW.png</file>
+        <file>icon_Setting.png</file>
+    </qresource>
+</RCC>

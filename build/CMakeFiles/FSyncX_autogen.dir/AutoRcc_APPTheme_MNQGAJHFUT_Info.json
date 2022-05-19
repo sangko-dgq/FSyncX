@@ -1,0 +1,37 @@
+{
+	"BUILD_DIR" : "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/22012/Desktop/FSyncX/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22012/Desktop/FSyncX/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX",
+	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX",
+	"INCLUDE_DIR" : "C:/Users/22012/Desktop/FSyncX/build/FSyncX_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/22012/Desktop/FSyncX/Theme/Default.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/ManjaroMix.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/AMOLED.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/Ubuntu.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/MacOS.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/BlueSoulDark.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/MaterialDark.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/ConsoleStyle.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/ElegantDark.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/Aqua.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/NeonButtons.qss",
+		"C:/Users/22012/Desktop/FSyncX/Theme/QSS_IMG/go-next-symbolic.symbolic.png",
+		"C:/Users/22012/Desktop/FSyncX/Theme/QSS_IMG/go-previous-symbolic.symbolic.png",
+		"C:/Users/22012/Desktop/FSyncX/Theme/QSS_IMG/object-select-symbolic.symbolic.png",
+		"C:/Users/22012/Desktop/FSyncX/Theme/QSS_IMG/go-down-symbolic.symbolic.png",
+		"C:/Users/22012/Desktop/FSyncX/Theme/QSS_IMG/go-up-symbolic.symbolic.png"
+	],
+	"LOCK_FILE" : "C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "APPTheme" ],
+	"OUTPUT_CHECKSUM" : "MNQGAJHFUT",
+	"OUTPUT_NAME" : "qrc_APPTheme.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/22012/Desktop/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Used.txt",
+	"SOURCE" : "C:/Users/22012/Desktop/FSyncX/Theme/APPTheme.qrc",
+	"VERBOSITY" : 0
+}
