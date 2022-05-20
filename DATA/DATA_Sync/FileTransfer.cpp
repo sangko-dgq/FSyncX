@@ -94,12 +94,16 @@ void FileTransfer::slot_onDisconnected()
     emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Disconnected");
 }
 
-/*连接出错*/
+/*连接出错（请求连接失败）*/
 void FileTransfer::slot_onError(QAbstractSocket::SocketError socketError)
 {
+    if(socketError == QAbstractSocket::ConnectionRefusedError) //Server未开启监听
+    {
+        emit signal_CommonINFO_FromFileTransfer("[Client] ConnectionRefusedError");
+    }
     if (socketError == QAbstractSocket::RemoteHostClosedError) //是客户端断开连接导致的错误
     {
-        emit signal_CommonINFO_FromFileTransfer("[Sync/Base] ERROR");
+        emit signal_CommonINFO_FromFileTransfer("[Client] RemoteHostClosedError");
     }
 }
 

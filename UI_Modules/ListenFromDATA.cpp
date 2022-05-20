@@ -6,18 +6,14 @@ ListenFromDATA::ListenFromDATA(QObject *parent)
 {
 }
 
-//*******************************************//@tag 监听来自APP_Base/Sync的通用消息
-/*接受来自服务端-FileBase的通用信息*/
+//*******************************************//@tag 监听来自 客户端/服务端 的通用消息，进行UI处理
+/* @fix 接受来自服务端-FileBase的通用信息*/
 void MainWindow::slot_CommonINFO_FromFileBase(QString content)
 {
-    QString ret;
-    if (content == "ServerListenOK")
-        ret = "OK";
-    else
-        ret = "False";
-    commonHelper->TBOut(ui->TBrwBaseDebug, "[ServerListen] Listen :" + ret);
-
-    QString result;
+    /*监听判断*/
+    commonHelper->TBOut(ui->TBrwBaseDebug, "~~~~~~~~~~~" + content + "~~~~~~~~~~~~");
+  
+    /*服务端检测到有Client请求连接*/
     if (content == "NewConnectionRequest" && isBasePageNow)
     {
         QMessageBox askbox(QMessageBox::Question, "请求连接", "是否接受来自未知客户端的连接？");
@@ -43,6 +39,16 @@ void MainWindow::slot_CommonINFO_FromFileBase(QString content)
         }
     }
     
+    /*服务端检测到被连接成功*/
+    if(content == "[Server] Connected")
+    {
+        QMessageBox::information(this,"CONNECTED","服务端检测到被连接成功");
+
+        commonHelper->TBOut(ui->TBrwBaseDebug, content);
+        ui->BtnStartListen->setEnabled(false);
+        isSyncBaseConnected = true;
+    }
+
     /*服务端检测到连接中断*/
     if(content == "[Server] Disconnected")
     {
@@ -55,7 +61,7 @@ void MainWindow::slot_CommonINFO_FromFileBase(QString content)
     }
 }
 
-/*接受来自客户端-FileTransfer的通用信息*/
+/* @fix 接受来自客户端-FileTransfer的通用信息*/
 void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
 {
     QMessageBox::StandardButton result;
@@ -79,4 +85,12 @@ void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
         ui->PBarSyncConfig->setValue(20);
         isSyncBaseConnected = false;
     }
+
+    /*ERROR*/
+    //Server未开启监听等请求连接错误
+    if(content == "[Client] ConnectionRefusedError") 
+    {
+        QMessageBox::critical(this,"ERROR","Connection Refused Error");
+    }
+
 }

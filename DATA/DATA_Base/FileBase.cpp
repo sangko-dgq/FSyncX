@@ -41,11 +41,9 @@ void FileBase::slot_onNewConnection()
     connect(socket, SIGNAL(connected()), this, SLOT(slot_onConnected()));
     connect(socket, SIGNAL(disconnected()), this, SLOT(slot_onDisconnected()));
     connect(socket, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(slot_onError(QAbstractSocket::SocketError)));
-
-    
-
 }
 
+/*当有数据来到时触发该槽函数*/
 void FileBase::slot_onReadyRead()
 {
     QObject *obj = this->sender();
@@ -121,9 +119,11 @@ void FileBase::slot_onReadyRead()
     } while (sizeNow > 0);
 }
 
+/*服务器连接成功*/
 void FileBase::slot_onConnected()
 {
     qDebug() << "connected";
+    emit signal_CommonINFO_FromFileBase("[Server] Connected");
 }
 
 /*服务端检测到断开连接*/
@@ -143,7 +143,6 @@ void FileBase::slot_onDisconnected()
 /*服务端检测到连接错误*/
 void FileBase::slot_onError(QAbstractSocket::SocketError socketError)
 {
-
     qDebug() << "error" << socketError;
 }
 

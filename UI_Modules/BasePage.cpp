@@ -62,7 +62,7 @@ void MainWindow::on_BtnOpenBasePath_clicked()
     commonHelper->TBOut(ui->TBrwBaseDebug, BasePath);
 }
 
-/*按钮切换-切换监听状态*/
+/*按钮点击-打开服务器监听*/
 void MainWindow::on_BtnStartListen_clicked()
 {
     if (!isBasePathValid) //路径无效
@@ -74,7 +74,7 @@ void MainWindow::on_BtnStartListen_clicked()
     //打开全局 允许监听开关
     isONListen = true;
 
-    /*向FileBase发送请求 监听*/
+    /*向FileBase发送请求监听*/
     emit signal_ONOFF_ServerListen(Base_HostGot, Base_PortSet, "ON");
 
     //禁用打开监听按钮
@@ -94,12 +94,6 @@ void MainWindow::on_BtnStartListen_clicked()
 /*按钮点击-刷新获取IP*/
 void MainWindow::on_BtnGetIP_clicked()
 {
-    //    if(!isBasePathValid || !isSyncBaseConnected) //路径无效或未连接
-    //    {
-    //        commonHelper->TBOut(ui->TBrwBaseDebug, "[ONListen] [ERROR] SyncPath/Connection is not built..");
-    //        return;
-    //    }
-
     commonHelper->TBOut(ui->TBrwBaseDebug, "Refresh IP...");
 
     /*更新BaseIPAddr*/
@@ -118,6 +112,7 @@ void MainWindow::on_BtnGetIP_clicked()
 
 
 //***************************************************//@tag 接受同步数据 - APP_Base
+
 void MainWindow::slot_File(const QString &fileName, const QByteArray &data)
 {
     qDebug() << "File:" << fileName;
