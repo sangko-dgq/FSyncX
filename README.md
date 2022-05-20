@@ -15,19 +15,23 @@
 
     TODO(Specific file size standards are yet to be tested in the future..).
 
-#### 二、Development framework：QT5/Qwidget
+#### 二、Development framework
+
+1. QT5/Qwidget
+2. MingW_64bit
+3. CMake on vscode
 
 #### 三、Install
 
-  Source code compilation：
+1. Source code compilation：
 
 ```git
 git clone https://github.com/sangko-dgq/FSyncX.git
 ```
 
- Installation package：
+2.  Installation package：
 
-[Releases](https://github.com/sangko-dgq/FSyncX/releases/tag/FSyncX_beta)
+[ Releases](https://github.com/sangko-dgq/FSyncX/releases/tag/FSyncX_beta)
 
 #### 四、Screenshot
 
