@@ -12,17 +12,16 @@ void MainWindow::slot_CommonINFO_FromFileBase(QString content)
 {
     /*监听判断*/
     commonHelper->TBOut(ui->TBrwBaseDebug, "~~~~~~~~~~~" + content + "~~~~~~~~~~~~");
-  
+
     /*服务端检测到有Client请求连接*/
-    if (content == "NewConnectionRequest" && isBasePageNow)
+    if (content == "NewConnectionRequest")
     {
         QMessageBox askbox(QMessageBox::Question, "请求连接", "是否接受来自未知客户端的连接？");
         askbox.setStandardButtons(QMessageBox::Ok | QMessageBox::Cancel);
         askbox.setButtonText(QMessageBox::Ok, QString("接 受"));
         askbox.setButtonText(QMessageBox::Cancel, QString("拒 绝"));
 
-        int ret = askbox.exec();
-        switch (ret)
+        switch (askbox.exec())
         {
         case QMessageBox::Ok:
         {
@@ -38,11 +37,11 @@ void MainWindow::slot_CommonINFO_FromFileBase(QString content)
         }
         }
     }
-    
+
     /*服务端检测到被连接成功*/
-    if(content == "[Server] Connected")
+    if (content == "[Server] Connected")
     {
-        QMessageBox::information(this,"CONNECTED","服务端检测到被连接成功");
+        QMessageBox::information(this, "CONNECTED", "服务端检测到被连接成功");
 
         commonHelper->TBOut(ui->TBrwBaseDebug, content);
         ui->BtnStartListen->setEnabled(false);
@@ -50,9 +49,9 @@ void MainWindow::slot_CommonINFO_FromFileBase(QString content)
     }
 
     /*服务端检测到连接中断*/
-    if(content == "[Server] Disconnected")
+    if (content == "[Server] Disconnected")
     {
-        QMessageBox::critical(this,"DISCONNECTED","服务端检测到连接中断");
+        QMessageBox::critical(this, "DISCONNECTED", "服务端检测到连接中断");
 
         commonHelper->TBOut(ui->TBrwBaseDebug, content);
         ui->BtnStartListen->setEnabled(true);
@@ -65,20 +64,20 @@ void MainWindow::slot_CommonINFO_FromFileBase(QString content)
 void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
 {
     QMessageBox::StandardButton result;
-    commonHelper->TBOut(ui->TBrwSyncDebug, "slot_INFO_LOCAL" + content);
+    commonHelper->TBOut(ui->TBrwSyncDebug, content);
 
     // /*采用禁用按钮的方式，避免已连接的情况, 再重复点击请求连接(实际上会自动阻塞，不能再连接)*/
-    if (content == "[Sync/Base] Connected")  //连接成功
+    if (content == "[Sync/Base] Connected") //连接成功
     {
-        QMessageBox::information(this,"CONNECTED","客户端检测到连接成功");
+        QMessageBox::information(this, "CONNECTED", "客户端检测到连接成功");
         ui->BtnConnectToFBase->setEnabled(false);
         if (isSyncPathValid)
             ui->PBarSyncConfig->setValue(55);
         isSyncBaseConnected = true;
     }
-    if (content == "[Sync/Base] Disconnected")    //连接中断 (主动关闭连接、程序退出、网络断开)
+    if (content == "[Sync/Base] Disconnected") //连接中断 (主动关闭连接、程序退出、网络断开)
     {
-        QMessageBox::critical(this,"DISCONNECTED","客户端检测到连接中断");
+        QMessageBox::critical(this, "DISCONNECTED", "客户端检测到连接中断");
 
         commonHelper->TBOut(ui->TBrwSyncDebug, content);
         ui->BtnConnectToFBase->setEnabled(true);
@@ -87,10 +86,9 @@ void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
     }
 
     /*ERROR*/
-    //Server未开启监听等请求连接错误
-    if(content == "[Client] ConnectionRefusedError") 
+    // Server未开启监听等请求连接错误
+    if (content == "[Client] ConnectionRefusedError")
     {
-        QMessageBox::critical(this,"ERROR","Connection Refused Error");
+        QMessageBox::critical(this, "ERROR", "Connection Refused Error");
     }
-
 }

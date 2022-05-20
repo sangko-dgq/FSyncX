@@ -25,6 +25,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/K375XTTEI5/moc_SyncPag
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h \

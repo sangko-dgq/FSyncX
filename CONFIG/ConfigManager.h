@@ -29,7 +29,7 @@ public:
     bool static writeIni(QString path, QString section,QString keyword, QString keyvalue);
     QString static readIni(QString path, QString section,QString keyword, QString &keyvalue);
 
-
+    bool openINI(QString path);
     
 };
 

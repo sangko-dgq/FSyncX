@@ -90,6 +90,12 @@ QString ConfigManager::readIni(QString path, QString section, QString keyword, Q
     }
 }
 
+/*打开配置文件*/
+bool ConfigManager::openINI(QString path)
+{
+    return QDesktopServices::openUrl(QUrl::fromLocalFile(path));
+}
+
 
 //example：
 //     ConfigManager::writeIni("log.txt", "config1", "key1", "test");
@@ -103,3 +109,4 @@ QString ConfigManager::readIni(QString path, QString section, QString keyword, Q
 //     QString keyword;
 //     keyword = ConfigManager::readIni(QString("log.txt"), QString("config3"), QString("key"), keyword); //读配置文档
 //     qDebug() << keyword ;
+

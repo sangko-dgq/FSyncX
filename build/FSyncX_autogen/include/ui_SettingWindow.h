@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
-#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
@@ -30,16 +29,11 @@ public:
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
     QLabel *label_3;
-    QPushButton *pushButton_4;
+    QPushButton *BtnCheckUpdate;
     QWidget *layoutWidget1;
     QHBoxLayout *horizontalLayout_2;
     QLabel *label_2;
-    QPushButton *pushButton_5;
-    QWidget *layoutWidget2;
-    QGridLayout *gridLayout;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton;
+    QPushButton *BtnOpenConfigFile;
 
     void setupUi(QWidget *SettingWindow)
     {
@@ -49,12 +43,11 @@ public:
         QFont font;
         font.setFamily(QString::fromUtf8("Fira Code"));
         font.setBold(false);
-        font.setWeight(50);
         SettingWindow->setFont(font);
         SettingWindow->setWindowOpacity(0.940000000000000);
         groupBox = new QGroupBox(SettingWindow);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(10, 10, 381, 241));
+        groupBox->setGeometry(QRect(10, 10, 381, 291));
         CBox_SwitchTheme = new QComboBox(groupBox);
         CBox_SwitchTheme->addItem(QString());
         CBox_SwitchTheme->addItem(QString());
@@ -76,10 +69,10 @@ public:
 
         horizontalLayout->addWidget(label_3);
 
-        pushButton_4 = new QPushButton(layoutWidget);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        BtnCheckUpdate = new QPushButton(layoutWidget);
+        BtnCheckUpdate->setObjectName(QString::fromUtf8("BtnCheckUpdate"));
 
-        horizontalLayout->addWidget(pushButton_4);
+        horizontalLayout->addWidget(BtnCheckUpdate);
 
         layoutWidget1 = new QWidget(groupBox);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
@@ -92,31 +85,10 @@ public:
 
         horizontalLayout_2->addWidget(label_2);
 
-        pushButton_5 = new QPushButton(layoutWidget1);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        BtnOpenConfigFile = new QPushButton(layoutWidget1);
+        BtnOpenConfigFile->setObjectName(QString::fromUtf8("BtnOpenConfigFile"));
 
-        horizontalLayout_2->addWidget(pushButton_5);
-
-        layoutWidget2 = new QWidget(SettingWindow);
-        layoutWidget2->setObjectName(QString::fromUtf8("layoutWidget2"));
-        layoutWidget2->setGeometry(QRect(150, 260, 239, 31));
-        gridLayout = new QGridLayout(layoutWidget2);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        gridLayout->setContentsMargins(0, 0, 0, 0);
-        pushButton_3 = new QPushButton(layoutWidget2);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-
-        gridLayout->addWidget(pushButton_3, 0, 0, 1, 1);
-
-        pushButton_2 = new QPushButton(layoutWidget2);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-
-        gridLayout->addWidget(pushButton_2, 0, 1, 1, 1);
-
-        pushButton = new QPushButton(layoutWidget2);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-
-        gridLayout->addWidget(pushButton, 0, 2, 1, 1);
+        horizontalLayout_2->addWidget(BtnOpenConfigFile);
 
 
         retranslateUi(SettingWindow);
@@ -135,12 +107,9 @@ public:
 
         label->setText(QCoreApplication::translate("SettingWindow", "Theme", nullptr));
         label_3->setText(QCoreApplication::translate("SettingWindow", "Check Update", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("SettingWindow", "CHECK UPDATE", nullptr));
+        BtnCheckUpdate->setText(QCoreApplication::translate("SettingWindow", "CHECK UPDATE", nullptr));
         label_2->setText(QCoreApplication::translate("SettingWindow", "Open Config File", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("SettingWindow", "Config.ini", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("SettingWindow", "Reset", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("SettingWindow", "Cancel", nullptr));
-        pushButton->setText(QCoreApplication::translate("SettingWindow", "Save", nullptr));
+        BtnOpenConfigFile->setText(QCoreApplication::translate("SettingWindow", "Config.ini", nullptr));
     } // retranslateUi
 
 };

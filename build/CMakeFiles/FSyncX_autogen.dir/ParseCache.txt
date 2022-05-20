@@ -28,6 +28,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -379,6 +380,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -975,6 +977,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -1608,6 +1611,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/MainWindow.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -2179,6 +2183,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -2530,6 +2535,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -2881,6 +2887,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ListenFromDATA.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -3232,6 +3239,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -3584,6 +3592,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -3935,6 +3944,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime
+ mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h

@@ -30,6 +30,8 @@ public:
 
 private slots:
     void on_CBox_SwitchTheme_currentTextChanged(const QString &arg1);
+    void on_BtnOpenConfigFile_clicked();
+    void on_BtnCheckUpdate_clicked();
 
 private:
     Ui::SettingWindow *ui;

@@ -348,6 +348,8 @@ CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QUrl \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qurl.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/mainwindow.h \

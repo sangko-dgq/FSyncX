@@ -25,6 +25,9 @@
 #include <QTime>
 #include <QDesktopServices>
 
+#include <QDesktopServices>
+#include <QUrl>
+
 
 #include "../CONFIG/ConfigManager.h"
 #include "CommonHelper.h"

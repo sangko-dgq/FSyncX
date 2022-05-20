@@ -4,9 +4,8 @@
 PageManager::PageManager(QObject *parent)
     : QObject{parent}
 {
-    
 }
-Ui::MainWindow *ui_PageManager  = nullptr;
+Ui::MainWindow *ui_PageManager = nullptr;
 void PageManager::LINK_MW(Ui::MainWindow *mw)
 {
     ui_PageManager = mw;
@@ -18,7 +17,6 @@ void PageManager::setCurrentpPage(QWidget *Page)
     ui_PageManager->APPPage->setCurrentWidget(Page);
 }
 
-
 /*I'm FileSync-Client >>*/
 void MainWindow::on_btnFileSync_clicked()
 {
@@ -26,7 +24,6 @@ void MainWindow::on_btnFileSync_clicked()
     isHomePageNow = false;
     isSyncPageNow = true;
     isBasePageNow = false;
-
 }
 /*I'm FileBase-Server >>*/
 void MainWindow::on_btnFileBase_clicked()
@@ -53,26 +50,31 @@ void MainWindow::on_actionBackHome_triggered()
     /*同意退回到HomePage*/
     if (isSyncPageNow)
     {
-        emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Break"); //中断连接
-        emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Reject"); //中断连接
-        isONSync = false;                                                                        //关闭同步
+        if (isSyncBaseConnected)
+        {
+            emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Break"); //中断连接
+        }
+        isONSync = false; //关闭同步
 
         //*页面状态*//
         ui->APPPage->setCurrentWidget(ui->HomePage);
         ui->BtnConnectToFBase->setEnabled(true);
         ui->BtnStartSync->setEnabled(true);
+        ui->TBrwSyncDebug->clear();
         isHomePageNow = true;
         isSyncPageNow = false;
     }
     if (isBasePageNow)
     {
-        emit signal_Reject_or_Break_Connection(Base_HostGot, Base_PortSet, "Break"); //中断
-        emit signal_Reject_or_Break_Connection(Base_HostGot, Base_HostGot, "Reject"); //中断连接
-        emit signal_ONOFF_ServerListen(Base_HostGot, Base_PortSet, "OFF");           //向FileBase发送关闭监听信号
+        if (isSyncBaseConnected)
+        {
+            emit signal_Reject_or_Break_Connection(Base_HostGot, Base_PortSet, "Break"); //中断
+            emit signal_ONOFF_ServerListen(Base_HostGot, Base_PortSet, "OFF");           //向FileBase发送关闭监听信号
+        }
         isONListen = false;
-
         ui->APPPage->setCurrentWidget(ui->HomePage);
         ui->BtnStartListen->setEnabled(true);
+        ui->TBrwBaseDebug->clear();
         isHomePageNow = true;
         isBasePageNow = false;
     }

@@ -22,7 +22,7 @@ void SettingWindow::LINK_MW(Ui::MainWindow *mw)
     ui_SettingWindow = mw;
 }
 
-/*@tag 下拉窗口选择主题*/
+/*@tag 下拉框选择主题*/
 void SettingWindow::on_CBox_SwitchTheme_currentTextChanged(const QString &arg1)
 {
     if (arg1 == "Default")
@@ -43,9 +43,26 @@ void SettingWindow::on_CBox_SwitchTheme_currentTextChanged(const QString &arg1)
     }
 }
 
-
-/*同步CBox_SwitchTheme Current ThemeName*/
+/*从配置同步主题下拉框 Current ThemeName*/
 void SettingWindow::Set_CBoxSwitchTheme_CurrentText(const QString themeName)
 {
     ui->CBox_SwitchTheme->setCurrentText(themeName);
 }
+
+/*按钮点击，打开本地配置文件*/
+void SettingWindow::on_BtnOpenConfigFile_clicked()
+{
+    configManager->openINI("./FSyncX_CONFIG.ini");
+}
+
+/*按钮点击，检查更新*/
+void SettingWindow::on_BtnCheckUpdate_clicked()
+{
+    QDesktopServices::openUrl(QUrl("https://github.com/sangko-dgq/FSyncX/releases"));
+}
+
+
+
+
+
+
