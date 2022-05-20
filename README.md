@@ -1,30 +1,35 @@
 # FyncX 
 
-#### 基于TCP的文件同步工具
+#### TCP based file synchronization tool
 
-#### 一、特点
+#### 一、Features
 
-1. 同步实现
-   - [x] 单向同步
-   - [ ] 双向同步
+1. Synchronous direction support
+   - [x] Unidirectional synchronization
+   - [ ] Bidirectional synchronization
+2. File directory support
+   - [x] On Root directory
+   - [ ] Multi tier subdirectory
 
-2. 支持格式：IMG、ZIP、EXE...
+3. File size allowed
 
-#### 二、开发框架：QT5/Qwidget
+    TODO(Specific file size standards are yet to be tested in the future..).
 
-#### 三、INSTALL
+#### 二、Development framework：QT5/Qwidget
 
-  源码编译：
+#### 三、Install
+
+  Source code compilation：
 
 ```git
 git clone https://github.com/sangko-dgq/FSyncX.git
 ```
 
- 安装包
+ Installation package：
 
 [Releases](https://github.com/sangko-dgq/FSyncX/releases/tag/FSyncX_beta)
 
-#### 四、ShortCut
+#### 四、Screenshot
 
 ![image-20220520012518316](https://s2.loli.net/2022/05/20/P9kGB2KZ6jXqJiQ.png)
 
