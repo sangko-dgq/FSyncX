@@ -188,3 +188,7 @@ void MainWindow::slot_Rename(const QString &fileOld, const QString &fileNew)
         commonHelper->TBOut(ui->TBrwBaseDebug, "Sync Rename ERROR!");
     }
 }
+
+//当服务器发现有人要来连接时，就会发出newconnection 的信号
+
+

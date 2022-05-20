@@ -26,17 +26,23 @@ FileBase::FileBase(QObject *parent)
 
 //***************************************************SLOTS
 
+/*当服务器发现有人要来连接时，就会发出newconnection的信号*/
 void FileBase::slot_onNewConnection()
 {
     //使用这个socket客户端进行通信
     QTcpSocket *socket = server.nextPendingConnection();
-    clients.append(socket);
+    clients.append(socket);//先同意追加到clients
+
+    emit signal_CommonINFO_FromFileBase("NewConnectionRequest");
 
     //连接信号和槽
     connect(socket, SIGNAL(readyRead()), this, SLOT(slot_onReadyRead()));
     connect(socket, SIGNAL(connected()), this, SLOT(slot_onConnected()));
     connect(socket, SIGNAL(disconnected()), this, SLOT(slot_onDisconnected()));
     connect(socket, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(slot_onError(QAbstractSocket::SocketError)));
+
+
+
 }
 
 void FileBase::slot_onReadyRead()
@@ -147,9 +153,12 @@ void FileBase::slot_ONOFF_ServerListen(QString Host, QString port, QString ONOFF
     }
     else if(ONOFF == "OFF")
     {
-        server.close(); //关闭Server监听
+        //server.close(); //关闭Server监听
+        server.disconnect();
+        
         qDebug() << "OFF Server listen";
     }
     
     emit signal_CommonINFO_FromFileBase("ServerListenOK");
+
 }

@@ -88,6 +88,10 @@ void MainWindow::SignalSlotConnectInit_MW_DATA()
 
         // MainWindow => FileBase
         connect(this, SIGNAL(signal_ONOFF_ServerListen(QString, QString, QString)), &fileBase, SLOT(slot_ONOFF_ServerListen(QString, QString, QString)));
+        
+
+
+
 }
 
 void MainWindow::on_actionSetting_triggered()

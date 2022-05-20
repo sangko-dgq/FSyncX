@@ -15,6 +15,8 @@ FileTransfer::FileTransfer(QObject *parent)
     connect(&tcpSocket, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(slot_onError(QAbstractSocket::SocketError)));
 
     // tcpSocket.connectToHost("192.168.1.5", 8888);
+
+
 }
 
 //************************************************************************Meathods
@@ -106,8 +108,6 @@ void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
 
     emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Start To Connect...");
 
-
-
     qDebug() << "connect to host";
 }
 
@@ -122,6 +122,7 @@ void FileTransfer::slot_Reject_or_Break_Connection(QString Host, QString port, Q
     emit signal_CommonINFO_FromFileTransfer("[FileTransfer] Break message received");
 
     //关闭tcpSocket
-    tcpSocket.close();
+    // tcpSocket.close();//使用close会导致无法下次重新连接,应使用disconnectFromHost();
+    tcpSocket.disconnectFromHost();
 
 }
