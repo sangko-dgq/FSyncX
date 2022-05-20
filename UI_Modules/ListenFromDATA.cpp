@@ -56,7 +56,7 @@ void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
     commonHelper->TBOut(ui->TBrwSyncDebug, "slot_INFO_LOCAL" + content);
 
     // /*采用禁用按钮的方式，避免已连接的情况, 再重复点击请求连接(实际上会自动阻塞，不能再连接)*/
-    if (content == "[Sync/Base] Connected")
+    if (content == "[Sync/Base] Connected")  //连接成功
     {
         commonHelper->TBOut(ui->TBrwBaseDebug, "[FromSync] 询问是否接受连接？");
         commonHelper->TBOut(ui->TBrwBaseDebug, content);
@@ -68,12 +68,13 @@ void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
         //置位连接状态
         isSyncBaseConnected = true;
     }
-    if (content == "[Sync/Base] Disconnected")
+    if (content == "[Sync/Base] Disconnected")    //连接中断
     {
+        QMessageBox::critical(this,"DISCONNECTED","连接中断");
+
         commonHelper->TBOut(ui->TBrwBaseDebug, content);
         ui->BtnConnectToFBase->setEnabled(true);
         ui->PBarSyncConfig->setValue(20);
-
         //置位连接状态
         isSyncBaseConnected = false;
     }
@@ -81,7 +82,6 @@ void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
     /**********UI相关回传控制************/
     if (content == "[FileTransfer] Reject message received") // Server发起拒绝
     {
-
         QMessageBox::warning(this, "Warning", "FBase-Server Rejected the Connection!");
         commonHelper->TBOut(ui->TBrwBaseDebug, content);
         ui->BtnConnectToFBase->setEnabled(true);

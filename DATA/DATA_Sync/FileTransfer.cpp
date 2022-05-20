@@ -82,10 +82,11 @@ void FileTransfer::slot_onConnected()
     qDebug() << "connected";
     emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Connected");
 }
+
+/*连接中断*/
 void FileTransfer::slot_onDisconnected()
 {
     qDebug() << "disconnected";
-
     QObject *obj = this->sender();
     QTcpSocket *socket = qobject_cast<QTcpSocket *>(obj);
     if (socket == 0)
@@ -95,12 +96,18 @@ void FileTransfer::slot_onDisconnected()
 
     socket->close();
 }
+
+/*请求连接出错*/
 void FileTransfer::slot_onError(QAbstractSocket::SocketError socketError)
 {
     emit signal_CommonINFO_FromFileTransfer("[Sync/Base] ERROR");
 
     qDebug() << "socket error";
 }
+
+
+
+
 
 void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
 {
@@ -110,6 +117,7 @@ void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
 
     qDebug() << "connect to host";
 }
+
 
 /*拒绝或中端网络连接 -- Type: Reject / Break*/
 void FileTransfer::slot_Reject_or_Break_Connection(QString Host, QString port, QString Type)
