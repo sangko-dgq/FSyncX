@@ -16,6 +16,7 @@ FileBase::FileBase(QObject *parent)
 {
     connect(&server, SIGNAL(newConnection()), this, SLOT(slot_onNewConnection()));
 
+
     // bool ok = server.listen(QHostAddress::AnyIPv4, 8888);
     // qDebug() << "listen:" << ok;
     // emit signal_ServerListen(ok);
@@ -41,7 +42,7 @@ void FileBase::slot_onNewConnection()
     connect(socket, SIGNAL(disconnected()), this, SLOT(slot_onDisconnected()));
     connect(socket, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(slot_onError(QAbstractSocket::SocketError)));
 
-
+    
 
 }
 
@@ -125,6 +126,7 @@ void FileBase::slot_onConnected()
     qDebug() << "connected";
 }
 
+/*服务端检测到断开连接*/
 void FileBase::slot_onDisconnected()
 {
     QObject *obj = this->sender();
@@ -133,9 +135,12 @@ void FileBase::slot_onDisconnected()
     clients.removeAll(socket);
     socket->deleteLater();
 
+    emit signal_CommonINFO_FromFileBase("[Server] Disconnected");
+
     qDebug() << "disconnected";
 }
 
+/*服务端检测到连接错误*/
 void FileBase::slot_onError(QAbstractSocket::SocketError socketError)
 {
 

@@ -189,6 +189,6 @@ void MainWindow::slot_Rename(const QString &fileOld, const QString &fileNew)
     }
 }
 
-//当服务器发现有人要来连接时，就会发出newconnection 的信号
+
 
 

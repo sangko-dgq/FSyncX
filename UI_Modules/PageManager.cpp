@@ -36,6 +36,7 @@ void MainWindow::on_btnFileBase_clicked()
     isSyncPageNow = false;
     isBasePageNow = true;
 }
+
 /*menubar-backhome action*/
 void MainWindow::on_actionBackHome_triggered()
 {
@@ -53,6 +54,7 @@ void MainWindow::on_actionBackHome_triggered()
     if (isSyncPageNow)
     {
         emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Break"); //中断连接
+        emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Reject"); //中断连接
         isONSync = false;                                                                        //关闭同步
 
         //*页面状态*//
@@ -65,6 +67,7 @@ void MainWindow::on_actionBackHome_triggered()
     if (isBasePageNow)
     {
         emit signal_Reject_or_Break_Connection(Base_HostGot, Base_PortSet, "Break"); //中断
+        emit signal_Reject_or_Break_Connection(Base_HostGot, Base_HostGot, "Reject"); //中断连接
         emit signal_ONOFF_ServerListen(Base_HostGot, Base_PortSet, "OFF");           //向FileBase发送关闭监听信号
         isONListen = false;
 

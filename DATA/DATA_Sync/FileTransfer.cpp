@@ -15,8 +15,6 @@ FileTransfer::FileTransfer(QObject *parent)
     connect(&tcpSocket, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(slot_onError(QAbstractSocket::SocketError)));
 
     // tcpSocket.connectToHost("192.168.1.5", 8888);
-
-
 }
 
 //************************************************************************Meathods
@@ -89,25 +87,21 @@ void FileTransfer::slot_onDisconnected()
     qDebug() << "disconnected";
     QObject *obj = this->sender();
     QTcpSocket *socket = qobject_cast<QTcpSocket *>(obj);
-    if (socket == 0)
+    if (socket == 0) //未连接
         return;
-    
-    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Disconnected");
 
     socket->close();
+    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Disconnected");
 }
 
-/*请求连接出错*/
+/*连接出错*/
 void FileTransfer::slot_onError(QAbstractSocket::SocketError socketError)
 {
-    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] ERROR");
-
-    qDebug() << "socket error";
+    if (socketError == QAbstractSocket::RemoteHostClosedError) //是客户端断开连接导致的错误
+    {
+        emit signal_CommonINFO_FromFileTransfer("[Sync/Base] ERROR");
+    }
 }
-
-
-
-
 
 void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
 {
@@ -118,19 +112,15 @@ void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
     qDebug() << "connect to host";
 }
 
-
 /*拒绝或中端网络连接 -- Type: Reject / Break*/
 void FileTransfer::slot_Reject_or_Break_Connection(QString Host, QString port, QString Type)
 {
+    tcpSocket.disconnectFromHost(); //客户端断开
+    
     /*根据Type回传不同消息（需要不同窗口）*/
-    if(Type == "Reject")
-    //通知 SyncPage 弹出waring弹窗，恢复发起连接按钮状态
-    emit signal_CommonINFO_FromFileTransfer("[FileTransfer] Reject message received");
-    else if(Type == "Break")
-    emit signal_CommonINFO_FromFileTransfer("[FileTransfer] Break message received");
-
-    //关闭tcpSocket
-    // tcpSocket.close();//使用close会导致无法下次重新连接,应使用disconnectFromHost();
-    tcpSocket.disconnectFromHost();
-
+    if (Type == "Reject")
+        //通知 SyncPage 弹出waring弹窗，恢复发起连接按钮状态
+        emit signal_CommonINFO_FromFileTransfer("[FileTransfer] Reject message received");
+    else if (Type == "Break")
+        emit signal_CommonINFO_FromFileTransfer("[FileTransfer] Break message received");
 }

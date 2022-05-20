@@ -6,11 +6,11 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
         ui->setupUi(this);
-        
+
         configManager->LINK_MW(ui);
         themeManager->LINK_MW(ui);
         pageManager->LINK_MW(ui);
-        settingWindow -> LINK_MW(ui);
+        settingWindow->LINK_MW(ui);
 
         SignalSlotConnectInit_MW_DATA();
         ContextMenuInit();
@@ -31,7 +31,6 @@ MainWindow::MainWindow(QWidget *parent)
 
         pageManager->setCurrentpPage(ui->HomePage);
         themeManager->ApplyThemeFromConfig();
-
 
         // QString themeKeyword;
         // themeKeyword = configManager->readIni(QString("FSyncX_CONFIG.txt"), QString("SETTING"), QString("THEME"), themeKeyword); //读配置文档
@@ -69,7 +68,7 @@ void MainWindow::SignalSlotConnectInit_MW_DATA()
                 this,
                 SLOT(slot_FileRenamed(const QString, const QString)));
 
-        // FileTransfer => MainWindow
+        // MainWindow => FileWatcher
         connect(this,
                 SIGNAL(signal_ConnectToFBase(QString, QString)),
                 &fileTransfer,
@@ -80,6 +79,11 @@ void MainWindow::SignalSlotConnectInit_MW_DATA()
                 this,
                 SLOT(slot_CommonINFO_FromFileTransfer(QString)));
 
+        connect(this, SIGNAL(signal_Reject_or_Break_Connection(QString, QString, QString)),
+                &fileTransfer,
+                SLOT(slot_Reject_or_Break_Connection(QString, QString, QString)));
+
+
         // FileBase => MainWindow
         connect(&fileBase, SIGNAL(signal_File(QString, QByteArray)), this, SLOT(slot_File(QString, QByteArray)));
         connect(&fileBase, SIGNAL(signal_Del(QString)), this, SLOT(slot_Del(QString)));
@@ -88,10 +92,6 @@ void MainWindow::SignalSlotConnectInit_MW_DATA()
 
         // MainWindow => FileBase
         connect(this, SIGNAL(signal_ONOFF_ServerListen(QString, QString, QString)), &fileBase, SLOT(slot_ONOFF_ServerListen(QString, QString, QString)));
-        
-
-
-
 }
 
 void MainWindow::on_actionSetting_triggered()
