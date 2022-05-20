@@ -1,5 +1,6 @@
 C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/7JCVFSXUOK/moc_ConfigManager.cpp: C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
   C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h \
+  C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h \
   C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
   C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h \
   C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h \

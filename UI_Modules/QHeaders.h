@@ -32,4 +32,6 @@
 #include "../CONFIG/ConfigManager.h"
 #include "CommonHelper.h"
 
+#include "../CONFIG/CodeConfig.h"
+
 #endif

@@ -397,6 +397,7 @@ CMakeFiles/FSyncX.dir/main.cpp.obj: \
  C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules/CommonHelper.h \
  C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules/QHeaders.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/mainwindow.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h \
  C:\Users\22012\Desktop\FSyncX\FSyncX\DATA/DATA_Sync/FileWatcher.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \

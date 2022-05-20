@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
         ui->setupUi(this);
+        setWindowIcon(QIcon(APPICON));
+
 
         configManager->LINK_MW(ui);
         themeManager->LINK_MW(ui);

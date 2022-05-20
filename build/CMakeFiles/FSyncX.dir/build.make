@@ -95,6 +95,7 @@ FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: CMakeFiles/FSyncX_autogen.dir/AutoRc
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_backhome.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Exit.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Setting.png
+FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/app_logo.ico
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_HOW.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for icons/APPicons.qrc"
@@ -325,11 +326,16 @@ CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.s"
 	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22012\Desktop\FSyncX\FSyncX\UI_Modules\ThemeManager.cpp -o CMakeFiles\FSyncX.dir\UI_Modules\ThemeManager.cpp.s
 
+CMakeFiles/FSyncX.dir/icons/logo.rc.obj: CMakeFiles/FSyncX.dir/flags.make
+CMakeFiles/FSyncX.dir/icons/logo.rc.obj: ../icons/logo.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building RC object CMakeFiles/FSyncX.dir/icons/logo.rc.obj"
+	D:\Qt5\Tools\mingw810_64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\22012\Desktop\FSyncX\FSyncX\icons\logo.rc CMakeFiles\FSyncX.dir\icons\logo.rc.obj
+
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj"
 	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\MNQGAJHFUT\qrc_APPTheme.cpp
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.i: cmake_force
@@ -344,7 +350,7 @@ CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: CMakeFiles
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj: CMakeFiles/FSyncX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj"
 	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj -MF CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.obj.d -o CMakeFiles\FSyncX.dir\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp.obj -c C:\Users\22012\Desktop\FSyncX\FSyncX\build\FSyncX_autogen\2SEMU33LXP\qrc_APPicons.cpp
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.i: cmake_force
@@ -372,6 +378,7 @@ FSyncX_OBJECTS = \
 "CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj" \
 "CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj" \
 "CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj" \
+"CMakeFiles/FSyncX.dir/icons/logo.rc.obj" \
 "CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj" \
 "CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj"
 
@@ -393,6 +400,7 @@ FSyncX.exe: CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj
 FSyncX.exe: CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj
 FSyncX.exe: CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj
 FSyncX.exe: CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj
+FSyncX.exe: CMakeFiles/FSyncX.dir/icons/logo.rc.obj
 FSyncX.exe: CMakeFiles/FSyncX.dir/FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj
 FSyncX.exe: CMakeFiles/FSyncX.dir/FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj
 FSyncX.exe: CMakeFiles/FSyncX.dir/build.make
@@ -404,7 +412,7 @@ FSyncX.exe: D:/Qt5/5.15.2/mingw81_64/lib/libqtmain.a
 FSyncX.exe: CMakeFiles/FSyncX.dir/linklibs.rsp
 FSyncX.exe: CMakeFiles/FSyncX.dir/objects1.rsp
 FSyncX.exe: CMakeFiles/FSyncX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable FSyncX.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable FSyncX.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FSyncX.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,6 +4,33 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "RC"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_RC
+  "C:/Users/22012/Desktop/FSyncX/FSyncX/icons/logo.rc" "C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX.dir/icons/logo.rc.obj"
+  )
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_RC
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_NETWORK_LIB"
+  "QT_WIDGETS_LIB"
+  )
+
+# The include file search paths:
+set(CMAKE_RC_TARGET_INCLUDE_PATH
+  "."
+  "../"
+  "FSyncX_autogen/include"
+  "D:/Qt5/5.15.2/mingw81_64/include"
+  "D:/Qt5/5.15.2/mingw81_64/include/QtWidgets"
+  "D:/Qt5/5.15.2/mingw81_64/include/QtGui"
+  "D:/Qt5/5.15.2/mingw81_64/include/QtANGLE"
+  "D:/Qt5/5.15.2/mingw81_64/include/QtCore"
+  "D:/Qt5/5.15.2/mingw81_64/./mkspecs/win32-g++"
+  "D:/Qt5/5.15.2/mingw81_64/include/QtNetwork"
   )
 
 # The set of dependency files which are needed:

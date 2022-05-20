@@ -29,11 +29,12 @@ public:
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
     QLabel *label_3;
-    QPushButton *BtnCheckUpdate;
+    QPushButton *pushButton_4;
     QWidget *layoutWidget1;
     QHBoxLayout *horizontalLayout_2;
     QLabel *label_2;
-    QPushButton *BtnOpenConfigFile;
+    QPushButton *pushButton_5;
+    QLabel *AppVersion;
 
     void setupUi(QWidget *SettingWindow)
     {
@@ -69,10 +70,10 @@ public:
 
         horizontalLayout->addWidget(label_3);
 
-        BtnCheckUpdate = new QPushButton(layoutWidget);
-        BtnCheckUpdate->setObjectName(QString::fromUtf8("BtnCheckUpdate"));
+        pushButton_4 = new QPushButton(layoutWidget);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
 
-        horizontalLayout->addWidget(BtnCheckUpdate);
+        horizontalLayout->addWidget(pushButton_4);
 
         layoutWidget1 = new QWidget(groupBox);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
@@ -85,11 +86,17 @@ public:
 
         horizontalLayout_2->addWidget(label_2);
 
-        BtnOpenConfigFile = new QPushButton(layoutWidget1);
-        BtnOpenConfigFile->setObjectName(QString::fromUtf8("BtnOpenConfigFile"));
+        pushButton_5 = new QPushButton(layoutWidget1);
+        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
 
-        horizontalLayout_2->addWidget(BtnOpenConfigFile);
+        horizontalLayout_2->addWidget(pushButton_5);
 
+        AppVersion = new QLabel(groupBox);
+        AppVersion->setObjectName(QString::fromUtf8("AppVersion"));
+        AppVersion->setGeometry(QRect(210, 220, 121, 21));
+        AppVersion->setStyleSheet(QString::fromUtf8("color: rgb(255, 0, 0);\n"
+"font: 25 9pt \"Fira Code\";\n"
+""));
 
         retranslateUi(SettingWindow);
 
@@ -107,9 +114,10 @@ public:
 
         label->setText(QCoreApplication::translate("SettingWindow", "Theme", nullptr));
         label_3->setText(QCoreApplication::translate("SettingWindow", "Check Update", nullptr));
-        BtnCheckUpdate->setText(QCoreApplication::translate("SettingWindow", "CHECK UPDATE", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("SettingWindow", "CHECK UPDATE", nullptr));
         label_2->setText(QCoreApplication::translate("SettingWindow", "Open Config File", nullptr));
-        BtnOpenConfigFile->setText(QCoreApplication::translate("SettingWindow", "Config.ini", nullptr));
+        pushButton_5->setText(QCoreApplication::translate("SettingWindow", "Config.ini", nullptr));
+        AppVersion->setText(QCoreApplication::translate("SettingWindow", "220520_beta_1.0", nullptr));
     } // retranslateUi
 
 };

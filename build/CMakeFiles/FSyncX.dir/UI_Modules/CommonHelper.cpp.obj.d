@@ -425,4 +425,5 @@ CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj: \
  C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/mainwindow.h

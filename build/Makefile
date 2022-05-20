@@ -525,6 +525,14 @@ UI_Modules/ThemeManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSyncX.dir\build.make CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.s
 .PHONY : UI_Modules/ThemeManager.cpp.s
 
+icons/logo.obj: icons/logo.rc.obj
+.PHONY : icons/logo.obj
+
+# target to build an object file
+icons/logo.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSyncX.dir\build.make CMakeFiles/FSyncX.dir/icons/logo.rc.obj
+.PHONY : icons/logo.rc.obj
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -607,6 +615,7 @@ help:
 	@echo ... UI_Modules/ThemeManager.obj
 	@echo ... UI_Modules/ThemeManager.i
 	@echo ... UI_Modules/ThemeManager.s
+	@echo ... icons/logo.obj
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

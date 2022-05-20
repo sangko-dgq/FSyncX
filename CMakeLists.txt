@@ -15,6 +15,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt5 COMPONENTS Network REQUIRED)
 
+
 set(PROJECT_SOURCES
         main.cpp
         MainWindow.cpp
@@ -57,9 +58,7 @@ set(PROJECT_SOURCES
         UI_Modules/ThemeManager.cpp
         UI_Modules/ThemeManager.h
 
-
-
-        
+        icons/logo.rc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -95,6 +94,7 @@ set_target_properties(FSyncX PROPERTIES
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
+
 
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(FSyncX)

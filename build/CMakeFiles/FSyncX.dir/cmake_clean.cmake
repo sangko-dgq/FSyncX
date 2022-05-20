@@ -34,6 +34,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj.d"
   "CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj"
   "CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj.d"
+  "CMakeFiles/FSyncX.dir/icons/logo.rc.obj"
   "CMakeFiles/FSyncX.dir/main.cpp.obj"
   "CMakeFiles/FSyncX.dir/main.cpp.obj.d"
   "FSyncX.exe"
@@ -45,6 +46,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/FSyncX.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

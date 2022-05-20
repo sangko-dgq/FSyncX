@@ -95,7 +95,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="BtnCheckUpdate">
+      <widget class="QPushButton" name="pushButton_4">
        <property name="text">
         <string>CHECK UPDATE</string>
        </property>
@@ -121,13 +121,31 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="BtnOpenConfigFile">
+      <widget class="QPushButton" name="pushButton_5">
        <property name="text">
         <string>Config.ini</string>
        </property>
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="AppVersion">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>220</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);
+font: 25 9pt &quot;Fira Code&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>220520_beta_1.0</string>
+    </property>
    </widget>
   </widget>
  </widget>

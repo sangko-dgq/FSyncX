@@ -8,7 +8,8 @@ SettingWindow::SettingWindow(QWidget *parent) : QWidget(parent),
 
     //从配置中读取当前主题，同步给CBox_SwitchTheme的当前index
     ui->CBox_SwitchTheme->setCurrentText(themeManager->ReadThemeFromConfig());
-    
+    ui->AppVersion->setText(APPVERSION);
+    setWindowIcon(QIcon(APPICON));
 }
 
 SettingWindow::~SettingWindow()
@@ -58,11 +59,5 @@ void SettingWindow::on_BtnOpenConfigFile_clicked()
 /*按钮点击，检查更新*/
 void SettingWindow::on_BtnCheckUpdate_clicked()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/sangko-dgq/FSyncX/releases"));
+    QDesktopServices::openUrl(QUrl(RELEASES_SITE));
 }
-
-
-
-
-
-

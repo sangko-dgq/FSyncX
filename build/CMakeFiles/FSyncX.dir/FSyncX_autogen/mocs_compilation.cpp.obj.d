@@ -423,6 +423,7 @@ CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj: \
  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/QHeaders.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h \
+ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h \
  C:/Users/22012/Desktop/FSyncX/FSyncX/mainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \

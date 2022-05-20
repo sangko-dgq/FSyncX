@@ -3,6 +3,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -355,6 +356,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -952,6 +954,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/BasePage.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -1586,6 +1589,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/MainWindow.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/MainWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -2158,6 +2162,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/CommonHelper.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -2510,6 +2515,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ContextMenu.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -2862,6 +2868,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ListenFromDATA.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ListenFromDATA.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -3214,6 +3221,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/PageManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -3567,6 +3575,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/SyncPage.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h
@@ -3919,6 +3928,7 @@ C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/UI_Modules/ThemeManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/moc_predefs.h
+ mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/CodeConfig.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/CONFIG/ConfigManager.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/ChildWindow/SettingWindow.h
  mdp:C:/Users/22012/Desktop/FSyncX/FSyncX/DATA/DATA_Base/FileBase.h

@@ -13,8 +13,6 @@ FileTransfer::FileTransfer(QObject *parent)
     connect(&tcpSocket, SIGNAL(connected()), this, SLOT(slot_onConnected()));
     connect(&tcpSocket, SIGNAL(disconnected()), this, SLOT(slot_onDisconnected()));
     connect(&tcpSocket, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(slot_onError(QAbstractSocket::SocketError)));
-
-    // tcpSocket.connectToHost("192.168.1.5", 8888);
 }
 
 //************************************************************************Meathods

@@ -28,19 +28,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 82,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 87,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
 				"line" : 88,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 89,
 				"parent" : 0
 			}
 		]
@@ -150,8 +150,82 @@
 				27,
 				29,
 				31,
-				36,
-				37
+				37,
+				38
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build"
+				},
+				{
+					"path" : "C:/Users/22012/Desktop/FSyncX/FSyncX"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/Users/22012/Desktop/FSyncX/FSyncX/build/FSyncX_autogen/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt5/5.15.2/mingw81_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt5/5.15.2/mingw81_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt5/5.15.2/mingw81_64/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt5/5.15.2/mingw81_64/include/QtANGLE"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt5/5.15.2/mingw81_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/Qt5/5.15.2/mingw81_64/./mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/Qt5/5.15.2/mingw81_64/include/QtNetwork"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				33
 			]
 		}
 	],
@@ -232,8 +306,9 @@
 				27,
 				29,
 				31,
-				36,
-				37
+				33,
+				37,
+				38
 			]
 		},
 		{
@@ -254,9 +329,9 @@
 				28,
 				30,
 				32,
-				33,
 				34,
-				35
+				35,
+				36
 			]
 		},
 		{
@@ -273,8 +348,8 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				38,
-				39
+				39,
+				40
 			]
 		}
 	],
@@ -460,6 +535,12 @@
 			"backtrace" : 1,
 			"path" : "UI_Modules/ThemeManager.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "icons/logo.rc",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
