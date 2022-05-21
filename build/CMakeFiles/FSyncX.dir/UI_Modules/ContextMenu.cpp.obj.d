@@ -386,6 +386,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \

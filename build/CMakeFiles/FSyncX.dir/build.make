@@ -88,18 +88,19 @@ FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: ../Theme/QSS_IMG/go-down-symbolic.sy
 FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: ../Theme/QSS_IMG/go-up-symbolic.symbolic.png
 FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for Theme/APPTheme.qrc"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Info.json Debug
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Info.json Release
 
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/APPicons.qrc
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_backhome.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Exit.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Setting.png
+FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/app_logo_1024pxPNG.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/app_logo.ico
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_HOW.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for icons/APPicons.qrc"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json Debug
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json Release
 
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj: CMakeFiles/FSyncX.dir/flags.make
 CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj: CMakeFiles/FSyncX.dir/includes_CXX.rsp

@@ -1,24 +1,18 @@
-
-
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
 #include "UI_Modules/QHeaders.h"
-
 #include "DATA/DATA_Sync/FileWatcher.h"
 #include "DATA/DATA_Sync/FileTransfer.h"
 #include "DATA/DATA_Base/FileBase.h"
-
 #include "UI_Modules/CommonHelper.h"
 #include "UI_Modules/PageManager.h"
 #include "UI_Modules/SyncPage.h" 
 #include "UI_Modules/BasePage.h"
 #include "UI_Modules/ContextMenu.h"
 #include "UI_Modules/ThemeManager.h"
-
 #include "CONFIG/ConfigManager.h"
-
 #include "ChildWindow/SettingWindow.h"
 
 
@@ -35,10 +29,8 @@ class PageManager;
 class SyncPage;
 class BasePage;
 class ContextMenu;
-
 class ConfigManager;
 class ThemeManager;
-
 class SettingWindow;
 
 class MainWindow : public QMainWindow
@@ -48,9 +40,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
-    
-
 
 signals:
     void signal_ConnectToFBase(QString Host, QString port);
@@ -115,7 +104,6 @@ private:
     /*DATA*/
     FileWatcher fileWatcher;
     FileTransfer fileTransfer;
-
 
     /*右键菜单*/
     void ContextMenuInit();

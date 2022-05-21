@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
@@ -41,10 +42,11 @@ public:
     QWidget *HomePage;
     QWidget *layoutWidget;
     QGridLayout *LOGO_2;
-    QLabel *LOGO_T;
     QLabel *LOGO_S;
+    QLabel *LOGO_T;
     QPushButton *btnFileBase;
     QPushButton *btnFileSync;
+    QGraphicsView *graphicsView;
     QWidget *SyncPage;
     QGroupBox *Quick;
     QPushButton *BtnOpenSyncPath;
@@ -92,7 +94,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(800, 600);
+        MainWindow->resize(789, 600);
         MainWindow->setMinimumSize(QSize(400, 300));
         MainWindow->setStyleSheet(QString::fromUtf8(""));
         actionExit = new QAction(MainWindow);
@@ -122,14 +124,22 @@ public:
         QFont font;
         font.setFamily(QString::fromUtf8("Fira Code"));
         APPPage->setFont(font);
+        APPPage->setStyleSheet(QString::fromUtf8(""));
         HomePage = new QWidget();
         HomePage->setObjectName(QString::fromUtf8("HomePage"));
         layoutWidget = new QWidget(HomePage);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(121, 82, 511, 151));
+        layoutWidget->setGeometry(QRect(121, 82, 511, 207));
         LOGO_2 = new QGridLayout(layoutWidget);
         LOGO_2->setObjectName(QString::fromUtf8("LOGO_2"));
         LOGO_2->setContentsMargins(0, 0, 0, 0);
+        LOGO_S = new QLabel(layoutWidget);
+        LOGO_S->setObjectName(QString::fromUtf8("LOGO_S"));
+        LOGO_S->setStyleSheet(QString::fromUtf8("font: 12pt \"Gabriola\";"));
+        LOGO_S->setAlignment(Qt::AlignCenter);
+
+        LOGO_2->addWidget(LOGO_S, 1, 0, 1, 1);
+
         LOGO_T = new QLabel(layoutWidget);
         LOGO_T->setObjectName(QString::fromUtf8("LOGO_T"));
         LOGO_T->setStyleSheet(QString::fromUtf8("font: 64pt \"Ink Free\";\n"
@@ -137,13 +147,6 @@ public:
         LOGO_T->setAlignment(Qt::AlignCenter);
 
         LOGO_2->addWidget(LOGO_T, 0, 0, 1, 1);
-
-        LOGO_S = new QLabel(layoutWidget);
-        LOGO_S->setObjectName(QString::fromUtf8("LOGO_S"));
-        LOGO_S->setStyleSheet(QString::fromUtf8("font: 12pt \"Gabriola\";"));
-        LOGO_S->setAlignment(Qt::AlignCenter);
-
-        LOGO_2->addWidget(LOGO_S, 1, 0, 1, 1);
 
         btnFileBase = new QPushButton(HomePage);
         btnFileBase->setObjectName(QString::fromUtf8("btnFileBase"));
@@ -153,7 +156,18 @@ public:
         btnFileSync->setObjectName(QString::fromUtf8("btnFileSync"));
         btnFileSync->setGeometry(QRect(240, 260, 271, 51));
         btnFileSync->setStyleSheet(QString::fromUtf8("font: 9pt \"Fira Code\";"));
+        graphicsView = new QGraphicsView(HomePage);
+        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
+        graphicsView->setGeometry(QRect(-320, -230, 1021, 871));
+        graphicsView->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/app_logo_1024pxPNG.png);\n"
+"background-repeat:norepeat;\n"
+"border:0px;"));
         APPPage->addWidget(HomePage);
+        graphicsView->raise();
+        layoutWidget->raise();
+        btnFileBase->raise();
+        btnFileSync->raise();
         SyncPage = new QWidget();
         SyncPage->setObjectName(QString::fromUtf8("SyncPage"));
         Quick = new QGroupBox(SyncPage);
@@ -294,7 +308,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 22));
+        menubar->setGeometry(QRect(0, 0, 789, 22));
         menuMenu = new QMenu(menubar);
         menuMenu->setObjectName(QString::fromUtf8("menuMenu"));
         menuSetting = new QMenu(menubar);
@@ -332,8 +346,8 @@ public:
         actionSetting->setText(QCoreApplication::translate("MainWindow", "Setting", nullptr));
         actionHow_to_use->setText(QCoreApplication::translate("MainWindow", "How to use", nullptr));
         actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
-        LOGO_T->setText(QCoreApplication::translate("MainWindow", "FSyncX", nullptr));
         LOGO_S->setText(QCoreApplication::translate("MainWindow", "Root folder synchronization tool based on TCP", nullptr));
+        LOGO_T->setText(QCoreApplication::translate("MainWindow", "FSyncX", nullptr));
         btnFileBase->setText(QCoreApplication::translate("MainWindow", "I'm FileBase-Server >>", nullptr));
         btnFileSync->setText(QCoreApplication::translate("MainWindow", "I'm FileSync-Client >>", nullptr));
         Quick->setTitle(QCoreApplication::translate("MainWindow", "Quick", nullptr));
@@ -351,8 +365,8 @@ public:
         TBrwSyncPath->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">NO PATH CHOOSE..</p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Fira Code';\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
         PageLOGO_2->setText(QCoreApplication::translate("MainWindow", "FileSync- Client", nullptr));
         Quick_2->setTitle(QCoreApplication::translate("MainWindow", "Quick", nullptr));
         BtnOpenBasePath->setText(QCoreApplication::translate("MainWindow", "Open Base PATH", nullptr));
@@ -365,16 +379,16 @@ public:
         TBrwServerHost->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt; color:#5f5f5f;\">Click [Refresh IP] to get...</span></p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Fira Code'; font-size:8pt; color:#5f5f5f;\">Click [Refresh IP] to get...</span></p></body></html>", nullptr));
         BtnGetIP->setText(QCoreApplication::translate("MainWindow", "Refresh IP", nullptr));
         groupBox_6->setTitle(QCoreApplication::translate("MainWindow", "BasePath", nullptr));
         BtnChoseBasePath->setText(QCoreApplication::translate("MainWindow", "ChosePath", nullptr));
         TBrwBasePath->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#161616;\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Fira Code'; color:#161616;\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
         Debug_2->setTitle(QCoreApplication::translate("MainWindow", "Dubug", nullptr));
         PageLOGO->setText(QCoreApplication::translate("MainWindow", "FileBase- Server", nullptr));
         menuMenu->setTitle(QCoreApplication::translate("MainWindow", "View", nullptr));

@@ -4,6 +4,8 @@
 
 #### TCP based file synchronization tool
 
+![image-20220521144845454](https://s2.loli.net/2022/05/21/sSTmzqE968KitD1.png)
+
 ![image-20220520170408059](https://s2.loli.net/2022/05/20/NC6OJbKzmgTcoFE.png)
 
 #### 一、Features

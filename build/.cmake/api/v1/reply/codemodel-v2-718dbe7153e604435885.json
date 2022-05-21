@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FSyncX::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FSyncX-Debug-ccaa2c0b7c3e98b668c3.json",
+					"jsonFile" : "target-FSyncX-Release-56e6f48fe03b273eb39d.json",
 					"name" : "FSyncX",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "FSyncX_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FSyncX_autogen-Debug-604af4b3a67cfaf1b2b0.json",
+					"jsonFile" : "target-FSyncX_autogen-Release-604af4b3a67cfaf1b2b0.json",
 					"name" : "FSyncX_autogen",
 					"projectIndex" : 0
 				}

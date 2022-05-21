@@ -67,7 +67,7 @@ include CMakeFiles/FSyncX_autogen.dir/progress.make
 
 CMakeFiles/FSyncX_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\22012\Desktop\FSyncX\FSyncX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FSyncX"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutogenInfo.json Debug
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/22012/Desktop/FSyncX/FSyncX/build/CMakeFiles/FSyncX_autogen.dir/AutogenInfo.json Release
 
 FSyncX_autogen: CMakeFiles/FSyncX_autogen
 FSyncX_autogen: CMakeFiles/FSyncX_autogen.dir/build.make
