@@ -76,7 +76,7 @@ void FileTransfer::slot_onReadyRead()
 void FileTransfer::slot_onConnected()
 {
     qDebug() << "connected";
-    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Connected");
+    emit signal_CommonINFO_FromFileTransfer("[Client] Connected");
 }
 
 /*连接中断*/
@@ -89,7 +89,7 @@ void FileTransfer::slot_onDisconnected()
         return;
 
     socket->close();
-    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Disconnected");
+    emit signal_CommonINFO_FromFileTransfer("[Client] Disconnected");
 }
 
 /*连接出错（请求连接失败）*/
@@ -109,7 +109,7 @@ void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
 {
     tcpSocket.connectToHost(Host, port.toInt());
 
-    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Start To Connect...");
+    emit signal_CommonINFO_FromFileTransfer("[Client] Start To Connect...");
 
     qDebug() << "connect to host";
 }

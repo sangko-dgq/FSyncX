@@ -67,7 +67,7 @@ void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
     commonHelper->TBOut(ui->TBrwSyncDebug, content);
 
     // /*采用禁用按钮的方式，避免已连接的情况, 再重复点击请求连接(实际上会自动阻塞，不能再连接)*/
-    if (content == "[Sync/Base] Connected") //连接成功
+    if (content == "[Client] Connected") //连接成功
     {
         QMessageBox::information(this, "CONNECTED", "客户端检测到连接成功");
         ui->BtnConnectToFBase->setEnabled(false);
@@ -75,7 +75,7 @@ void MainWindow::slot_CommonINFO_FromFileTransfer(QString content)
             ui->PBarSyncConfig->setValue(55);
         isSyncBaseConnected = true;
     }
-    if (content == "[Sync/Base] Disconnected") //连接中断 (主动关闭连接、程序退出、网络断开)
+    if (content == "[Client] Disconnected") //连接中断 (主动关闭连接、程序退出、网络断开)
     {
         QMessageBox::critical(this, "DISCONNECTED", "客户端检测到连接中断");
 

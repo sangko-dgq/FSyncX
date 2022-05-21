@@ -93,8 +93,10 @@ FSyncX_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/APPicons.qrc
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_backhome.png
+FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/C.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Exit.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_Setting.png
+FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/S.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/app_logo_1024pxPNG.png
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/app_logo.ico
 FSyncX_autogen/2SEMU33LXP/qrc_APPicons.cpp: ../icons/icon_HOW.png

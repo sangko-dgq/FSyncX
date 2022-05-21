@@ -4,9 +4,6 @@
 SyncPage::SyncPage(QObject *parent)
     : QObject{parent}
 {
-
-    
-
 }
 
 //******************************************************* //@tag UI - APP_Sync
@@ -60,7 +57,7 @@ void MainWindow::on_BtnConnectToFBase_clicked()
     Sync_PortToConnect = commonHelper->GetLEditContent(ui->LEditPort);
 
     commonHelper->TBOut(ui->TBrwSyncDebug,
-                        "[SYS] Connect to ");
+                        "[Client] Connect to ");
     commonHelper->TBOut(ui->TBrwSyncDebug,
                         "HOST: " + Sync_HostToConnect);
     commonHelper->TBOut(ui->TBrwSyncDebug,
@@ -98,7 +95,6 @@ void MainWindow::on_BtnOpenSyncPath_clicked()
     commonHelper->TBOut(ui->TBrwSyncDebug, "[OpenSyncPath] Open SyncPath :");
     commonHelper->TBOut(ui->TBrwSyncDebug, syncPath);
 }
-
 
 //******************************************************* //@tag 发送同步数据 - APP_Sync
 void MainWindow::slot_DirectoryChanged(const QString &path)

@@ -6,5 +6,8 @@
         <file>icon_Setting.png</file>
         <file>app_logo.ico</file>
         <file>app_logo_1024pxPNG.png</file>
+        <file>S.png</file>
+        <file>C.png</file>
+
     </qresource>
 </RCC>

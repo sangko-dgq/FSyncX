@@ -41,8 +41,4 @@ git clone https://github.com/sangko-dgq/FSyncX.git
 
 #### 四、Screenshot
 
-![image-20220520012518316](https://s2.loli.net/2022/05/20/P9kGB2KZ6jXqJiQ.png)
-
-![UI_demo001](https://s2.loli.net/2022/05/20/tzx7p5aBIwVdNLG.png)
-
-![image-20220520012834354](https://s2.loli.net/2022/05/20/5zaUqmoPQtESyg9.png)
+![image-20220522000259542](https://s2.loli.net/2022/05/22/vt1CUkXoZ2NpiYI.png)

@@ -13,6 +13,7 @@ SettingWindow::SettingWindow(QWidget *parent) : QWidget(parent),
 
     //从配置中读取当前主题，同步给CBox_SwitchTheme的当前index
     ui->CBox_SwitchTheme->setCurrentText(themeManager->ReadThemeFromConfig());
+    
     ui->AppVersion->setText(APPVERSION);
     setWindowIcon(QIcon(APPICON));
 }

@@ -64,6 +64,10 @@ public:
     QPushButton *BtnChoseSyncPath;
     QTextBrowser *TBrwSyncPath;
     QLabel *PageLOGO_2;
+    QGroupBox *groupBox;
+    QGraphicsView *graphicsView_2;
+    QLabel *label;
+    QLabel *label_2;
     QWidget *BasePage;
     QGroupBox *Quick_2;
     QPushButton *BtnOpenBasePath;
@@ -82,6 +86,10 @@ public:
     QGroupBox *Debug_2;
     QTextBrowser *TBrwBaseDebug;
     QLabel *PageLOGO;
+    QGroupBox *groupBox_2;
+    QGraphicsView *graphicsView_3;
+    QLabel *label_3;
+    QLabel *label_4;
     QProgressBar *PBarCommon_4;
     QMenuBar *menubar;
     QMenu *menuMenu;
@@ -177,10 +185,10 @@ public:
         BtnOpenSyncPath->setGeometry(QRect(10, 20, 341, 81));
         Debug = new QGroupBox(SyncPage);
         Debug->setObjectName(QString::fromUtf8("Debug"));
-        Debug->setGeometry(QRect(380, 40, 381, 461));
+        Debug->setGeometry(QRect(380, 390, 381, 111));
         TBrwSyncDebug = new QTextBrowser(Debug);
         TBrwSyncDebug->setObjectName(QString::fromUtf8("TBrwSyncDebug"));
-        TBrwSyncDebug->setGeometry(QRect(10, 20, 361, 431));
+        TBrwSyncDebug->setGeometry(QRect(10, 20, 361, 81));
         TBrwSyncDebug->viewport()->setProperty("cursor", QVariant(QCursor(Qt::ArrowCursor)));
         ConfigGBox = new QGroupBox(SyncPage);
         ConfigGBox->setObjectName(QString::fromUtf8("ConfigGBox"));
@@ -225,11 +233,35 @@ public:
         PageLOGO_2->setGeometry(QRect(10, -10, 751, 51));
         PageLOGO_2->setStyleSheet(QString::fromUtf8("font: 20pt \"Segoe Print\";"));
         PageLOGO_2->setAlignment(Qt::AlignCenter);
+        groupBox = new QGroupBox(SyncPage);
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        groupBox->setGeometry(QRect(380, 40, 381, 351));
+        graphicsView_2 = new QGraphicsView(groupBox);
+        graphicsView_2->setObjectName(QString::fromUtf8("graphicsView_2"));
+        graphicsView_2->setGeometry(QRect(10, 20, 361, 321));
+        graphicsView_2->setStyleSheet(QString::fromUtf8("border:0px;"));
+        label = new QLabel(groupBox);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(90, 100, 71, 71));
+        label->setContextMenuPolicy(Qt::NoContextMenu);
+        label->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 170, 127);\n"
+"font: 11pt \"Fira Code\";\n"
+"border-radius: 35px;\n"
+"color: rgb(255, 255, 255);"));
+        label_2 = new QLabel(groupBox);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(210, 160, 71, 71));
+        label_2->setContextMenuPolicy(Qt::NoContextMenu);
+        label_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 85, 127);\n"
+"font: 11pt \"Fira Code\";\n"
+"border-radius: 35px;\n"
+"color: rgb(255, 255, 255);"));
         APPPage->addWidget(SyncPage);
         ConfigGBox->raise();
         Quick->raise();
         Debug->raise();
         PageLOGO_2->raise();
+        groupBox->raise();
         BasePage = new QWidget();
         BasePage->setObjectName(QString::fromUtf8("BasePage"));
         Quick_2 = new QGroupBox(BasePage);
@@ -282,15 +314,38 @@ public:
         TBrwBasePath->setTabChangesFocus(false);
         Debug_2 = new QGroupBox(BasePage);
         Debug_2->setObjectName(QString::fromUtf8("Debug_2"));
-        Debug_2->setGeometry(QRect(380, 40, 381, 461));
+        Debug_2->setGeometry(QRect(380, 390, 381, 111));
         TBrwBaseDebug = new QTextBrowser(Debug_2);
         TBrwBaseDebug->setObjectName(QString::fromUtf8("TBrwBaseDebug"));
-        TBrwBaseDebug->setGeometry(QRect(10, 20, 361, 431));
+        TBrwBaseDebug->setGeometry(QRect(10, 20, 361, 81));
         PageLOGO = new QLabel(BasePage);
         PageLOGO->setObjectName(QString::fromUtf8("PageLOGO"));
         PageLOGO->setGeometry(QRect(10, -10, 751, 51));
         PageLOGO->setStyleSheet(QString::fromUtf8("font: 20pt \"Segoe Print\";"));
         PageLOGO->setAlignment(Qt::AlignCenter);
+        groupBox_2 = new QGroupBox(BasePage);
+        groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
+        groupBox_2->setGeometry(QRect(380, 40, 381, 351));
+        graphicsView_3 = new QGraphicsView(groupBox_2);
+        graphicsView_3->setObjectName(QString::fromUtf8("graphicsView_3"));
+        graphicsView_3->setGeometry(QRect(10, 20, 361, 321));
+        graphicsView_3->setStyleSheet(QString::fromUtf8("border:0px;"));
+        label_3 = new QLabel(groupBox_2);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(220, 180, 71, 71));
+        label_3->setContextMenuPolicy(Qt::NoContextMenu);
+        label_3->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 85, 127);\n"
+"font: 11pt \"Fira Code\";\n"
+"border-radius: 35px;\n"
+"color: rgb(255, 255, 255);"));
+        label_4 = new QLabel(groupBox_2);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setGeometry(QRect(100, 120, 71, 71));
+        label_4->setContextMenuPolicy(Qt::NoContextMenu);
+        label_4->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 170, 127);\n"
+"font: 11pt \"Fira Code\";\n"
+"border-radius: 35px;\n"
+"color: rgb(255, 255, 255);"));
         APPPage->addWidget(BasePage);
         PBarCommon_4 = new QProgressBar(centralwidget);
         PBarCommon_4->setObjectName(QString::fromUtf8("PBarCommon_4"));
@@ -326,7 +381,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        APPPage->setCurrentIndex(1);
+        APPPage->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -359,9 +414,12 @@ public:
         TBrwSyncPath->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Fira Code';\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">NO PATH CHOOSE..</p></body></html>", nullptr));
         PageLOGO_2->setText(QCoreApplication::translate("MainWindow", "FileSync- Client", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("MainWindow", "Devices UX Board", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Client", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "Server", nullptr));
         Quick_2->setTitle(QCoreApplication::translate("MainWindow", "Quick", nullptr));
         BtnOpenBasePath->setText(QCoreApplication::translate("MainWindow", "Open Base PATH", nullptr));
         ConfigGBox_2->setTitle(QCoreApplication::translate("MainWindow", "Config", nullptr));
@@ -373,19 +431,22 @@ public:
         TBrwServerHost->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Fira Code'; font-size:8pt; color:#5f5f5f;\">Click [Refresh IP] to get...</span></p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt; color:#5f5f5f;\">Click [Refresh IP] to get...</span></p></body></html>", nullptr));
         BtnGetIP->setText(QCoreApplication::translate("MainWindow", "Refresh IP", nullptr));
         groupBox_6->setTitle(QCoreApplication::translate("MainWindow", "BasePath", nullptr));
         BtnChoseBasePath->setText(QCoreApplication::translate("MainWindow", "ChosePath", nullptr));
         TBrwBasePath->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Fira Code'; color:#161616;\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#161616;\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
         TBrwBasePath->setPlaceholderText(QString());
         Debug_2->setTitle(QCoreApplication::translate("MainWindow", "Dubug", nullptr));
         PageLOGO->setText(QCoreApplication::translate("MainWindow", "FileBase- Server", nullptr));
+        groupBox_2->setTitle(QCoreApplication::translate("MainWindow", "Devices UX Board", nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "Server", nullptr));
+        label_4->setText(QCoreApplication::translate("MainWindow", "Client", nullptr));
         menuMenu->setTitle(QCoreApplication::translate("MainWindow", "View", nullptr));
         menuSetting->setTitle(QCoreApplication::translate("MainWindow", "Setting", nullptr));
         menuHelp->setTitle(QCoreApplication::translate("MainWindow", "Help", nullptr));
