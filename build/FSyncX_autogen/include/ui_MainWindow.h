@@ -52,7 +52,6 @@ public:
     QPushButton *BtnOpenSyncPath;
     QGroupBox *Debug;
     QTextBrowser *TBrwSyncDebug;
-    QProgressBar *PBarCommon;
     QGroupBox *ConfigGBox;
     QProgressBar *PBarSyncConfig;
     QGroupBox *Sync;
@@ -80,10 +79,10 @@ public:
     QGroupBox *groupBox_6;
     QPushButton *BtnChoseBasePath;
     QTextBrowser *TBrwBasePath;
-    QProgressBar *PBarCommon_4;
     QGroupBox *Debug_2;
     QTextBrowser *TBrwBaseDebug;
     QLabel *PageLOGO;
+    QProgressBar *PBarCommon_4;
     QMenuBar *menubar;
     QMenu *menuMenu;
     QMenu *menuSetting;
@@ -94,7 +93,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(789, 600);
+        MainWindow->resize(791, 600);
         MainWindow->setMinimumSize(QSize(400, 300));
         MainWindow->setStyleSheet(QString::fromUtf8(""));
         actionExit = new QAction(MainWindow);
@@ -181,14 +180,8 @@ public:
         Debug->setGeometry(QRect(380, 40, 381, 461));
         TBrwSyncDebug = new QTextBrowser(Debug);
         TBrwSyncDebug->setObjectName(QString::fromUtf8("TBrwSyncDebug"));
-        TBrwSyncDebug->setGeometry(QRect(20, 20, 351, 431));
+        TBrwSyncDebug->setGeometry(QRect(10, 20, 361, 431));
         TBrwSyncDebug->viewport()->setProperty("cursor", QVariant(QCursor(Qt::ArrowCursor)));
-        PBarCommon = new QProgressBar(SyncPage);
-        PBarCommon->setObjectName(QString::fromUtf8("PBarCommon"));
-        PBarCommon->setGeometry(QRect(-10, 530, 791, 20));
-        PBarCommon->setFont(font);
-        PBarCommon->setValue(50);
-        PBarCommon->setTextVisible(false);
         ConfigGBox = new QGroupBox(SyncPage);
         ConfigGBox->setObjectName(QString::fromUtf8("ConfigGBox"));
         ConfigGBox->setGeometry(QRect(10, 40, 361, 351));
@@ -236,7 +229,6 @@ public:
         ConfigGBox->raise();
         Quick->raise();
         Debug->raise();
-        PBarCommon->raise();
         PageLOGO_2->raise();
         BasePage = new QWidget();
         BasePage->setObjectName(QString::fromUtf8("BasePage"));
@@ -287,12 +279,7 @@ public:
         TBrwBasePath = new QTextBrowser(groupBox_6);
         TBrwBasePath->setObjectName(QString::fromUtf8("TBrwBasePath"));
         TBrwBasePath->setGeometry(QRect(10, 30, 241, 41));
-        PBarCommon_4 = new QProgressBar(BasePage);
-        PBarCommon_4->setObjectName(QString::fromUtf8("PBarCommon_4"));
-        PBarCommon_4->setGeometry(QRect(-10, 530, 791, 20));
-        PBarCommon_4->setFont(font);
-        PBarCommon_4->setValue(50);
-        PBarCommon_4->setTextVisible(false);
+        TBrwBasePath->setTabChangesFocus(false);
         Debug_2 = new QGroupBox(BasePage);
         Debug_2->setObjectName(QString::fromUtf8("Debug_2"));
         Debug_2->setGeometry(QRect(380, 40, 381, 461));
@@ -305,10 +292,17 @@ public:
         PageLOGO->setStyleSheet(QString::fromUtf8("font: 20pt \"Segoe Print\";"));
         PageLOGO->setAlignment(Qt::AlignCenter);
         APPPage->addWidget(BasePage);
+        PBarCommon_4 = new QProgressBar(centralwidget);
+        PBarCommon_4->setObjectName(QString::fromUtf8("PBarCommon_4"));
+        PBarCommon_4->setGeometry(QRect(0, 550, 801, 20));
+        PBarCommon_4->setFont(font);
+        PBarCommon_4->setStyleSheet(QString::fromUtf8("background-color: rgb(79, 190, 159);"));
+        PBarCommon_4->setValue(100);
+        PBarCommon_4->setTextVisible(false);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 789, 22));
+        menubar->setGeometry(QRect(0, 0, 791, 22));
         menuMenu = new QMenu(menubar);
         menuMenu->setObjectName(QString::fromUtf8("menuMenu"));
         menuSetting = new QMenu(menubar);
@@ -332,7 +326,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        APPPage->setCurrentIndex(0);
+        APPPage->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -389,6 +383,7 @@ public:
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Fira Code'; color:#161616;\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
+        TBrwBasePath->setPlaceholderText(QString());
         Debug_2->setTitle(QCoreApplication::translate("MainWindow", "Dubug", nullptr));
         PageLOGO->setText(QCoreApplication::translate("MainWindow", "FileBase- Server", nullptr));
         menuMenu->setTitle(QCoreApplication::translate("MainWindow", "View", nullptr));

@@ -5,6 +5,11 @@ SettingWindow::SettingWindow(QWidget *parent) : QWidget(parent),
                                                 ui(new Ui::SettingWindow)
 {
     ui->setupUi(this);
+    
+    //主窗口关闭，同时关闭打开的子窗体
+    this->setAttribute(Qt::WA_QuitOnClose, false);
+    //子窗体打开后不可操作父窗体，实现阻塞除当前窗体外的其他所有窗体
+    this->setWindowModality(Qt::ApplicationModal);
 
     //从配置中读取当前主题，同步给CBox_SwitchTheme的当前index
     ui->CBox_SwitchTheme->setCurrentText(themeManager->ReadThemeFromConfig());
@@ -13,7 +18,7 @@ SettingWindow::SettingWindow(QWidget *parent) : QWidget(parent),
 }
 
 SettingWindow::~SettingWindow()
-{
+{    
     delete ui;
 }
 

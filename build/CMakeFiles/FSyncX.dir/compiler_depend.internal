@@ -389,6 +389,11 @@ CMakeFiles/FSyncX.dir/CONFIG/ConfigManager.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -818,6 +823,11 @@ CMakeFiles/FSyncX.dir/ChildWindow/SettingWindow.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -2115,6 +2125,11 @@ CMakeFiles/FSyncX.dir/FSyncX_autogen/mocs_compilation.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -2547,6 +2562,11 @@ CMakeFiles/FSyncX.dir/MainWindow.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -2998,6 +3018,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/BasePage.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -3430,6 +3455,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/CommonHelper.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -3859,6 +3889,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/ContextMenu.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -4290,6 +4325,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/ListenFromDATA.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -4721,6 +4761,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/PageManager.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -5152,6 +5197,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/SyncPage.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -5583,6 +5633,11 @@ CMakeFiles/FSyncX.dir/UI_Modules/ThemeManager.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -5993,6 +6048,11 @@ CMakeFiles/FSyncX.dir/main.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGraphicsView
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsview.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgraphicsscene.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
