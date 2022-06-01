@@ -1,3 +1,0 @@
-D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\qt5app.dir/objects.a
-D:\Qt5\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\qt5app.dir/objects.a @CMakeFiles\qt5app.dir\objects1.rsp
-D:\Qt5\Tools\mingw810_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\qt5app.dir/objects.a -Wl,--no-whole-archive -o qt5app.exe -Wl,--out-implib,libqt5app.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\qt5app.dir\linklibs.rsp
